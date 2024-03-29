@@ -1,25 +1,25 @@
-# Título do Projeto
+# ZT HEALTH
+Saúde sem Toxicidade
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º Semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Esse trabalho tem como foco auxiliar os profissionais de saúde na identificação precoce de doenças comuns que acometem as pessoas expostas as substâncias tóxicas decorrentes da matéria
+quimíca dos resíduos eletrônicos, bem como conscientizar por meio da saúde o descarte consciente desses materiais tendo como resultado final a sutentabilidade do meio em que vivemos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Handryws Junior
+* Isabella Augusta
+* João Vítor Tannus de Araujo
+* Nayana Loivos
 
 ## Orientador
 
-* Nome completo do professor
+* Simone Alves Nogueira 
 
 # Documentação
 
