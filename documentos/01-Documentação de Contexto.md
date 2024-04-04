@@ -18,9 +18,13 @@ Olhando pelas lentes da saúde pública, é extremamente útil considerar realiz
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Desenvolver um aplicativo web voltado para engajar profissionais da saúde na identificação precoce dos sintomas do paciente e na busca pelo melhoramento do tratamento deles ao chegar nos postos de saúde com suspeita de intoxicação pela matéria presentes nos resíduos eletrônicos. Esse aplicativo também visa utilizar as circunstâncias do atendimento a esse paciente para auxiliar o profissional de saúde a disseminar informações sobre sustentabilidade ambiental e conscientizá-lo sobre a implicação do descarte inadequado e a exposição arriscada a esses materiais eletrônicos. Bem como validar a promoção de uma abordagem mais assertiva no tratamento desses casos conscientizando o paciente sobre a importância da prevenção para evitar reincidências. Dentre os objetivos específicos, ressaltamos:
+
+1 - Desenvolver e implementar um sistema aprimorado de triagem e identificação para pacientes contaminados por substâncias presentes nos resíduos eletrônicos, visando possibilitar um diagnóstico precoce e acertado de problemas de saúde relacionados às causas dos sintomas por intermédio de exames específicos. 
+2 - Realizar a conscientização e educação pública aos pacientes que chegam aos postos de saúde com a condição de suspeita de intoxicação por materiais eletrônicos sobre os perigos dos resíduos eletrônicos para a sua saúde como consequência da má gestão desses resíduos no meio ambiente, incentivando práticas seguras de descarte e reciclagem. 
+3 - Coletar e analisar dados epidemiológicos sobre pacientes contaminados por substâncias presentes nos resíduos eletrônicos para entender melhor a extensão do problema, identificar grupos de risco e áreas geográficas prioritárias.  
+4 - Auxiliar por meios dos dados coletados a geração de equipamentos de proteção individual (EPIs) de trabalhadores envolvidos na separação ou gestão de resíduos eletrônicos. 
+5 - Permitir que o paciente acompanhe por meio da atualização do aplicativo referente ao seu atendimento e resultado de exames realizados.
 
 ## Justificativa
 
