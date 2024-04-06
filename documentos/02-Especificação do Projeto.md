@@ -7,15 +7,41 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Profissionais da saúde</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Profissionais da saúde (médicos, enfermeiros etc.)</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>1.  Identificar a causa dos sintomas do paciente 
+
+2. Aprimorar o processo de triagem para casos de suspeita por intoxicação pelas substâncias de resíduos eletrônicos. 
+
+3. Melhorar a precisão dos diagnósticos para um tratamento mais assertivo.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Pacientes</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Pacientes em geral no atendimento do posto de saúde e pacientes com sintomas de intoxicação.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>1.   Descobrir a causa dos seus sintomas. 
+
+2.   Entender os sintomas associados à intoxicação. 
+
+3. Aprender sobre os cuidados preventivos para evitar nova intoxicação. 
+</td>
 </tr>
 </tbody>
 </table>
