@@ -23,17 +23,30 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+|EU COMO...                  | QUERO/PRECISO ...             |PARA ...                |
+|----------------------------|-------------------------------|-----------------------------------|
+| Como profissional da saúde |Preciso descobrir com maior    |Para indicar o tratamento adequado |
+|                            |assertividade a causa dos      |e orientá-lo a prevenção.          |
+|                            |sintomas do paciente com       |                                   |
+|                            |suspeita de intoxicação por    |                                   |
+|                            |resíduos eletrônicos.          |                                   |
+| Como profissional da saúde |Preciso entender o             |Para auxiliar no processo de       |
+|                            |comportamento e a rotina do    |triagem e identificação da         |
+|                            |paciente.                      |da intoxicação.                    |
+| Como profissional da saúde |Devo ter controle e organizaçã |Para buscar a otimização do        |
+|                            |no processo de triagem do      |processo e estar mais próximo a um |                                    
+|                            |paciente com suspeita de       |diagnóstico eficiente para os      |                                  
+|                            |sintomas por intoxicação de    |sintomas do meu paciente.          |                                       
+|                            |substâncias de resíduos        |                                   |
+|                            |eletrônicos.                   |                                   |
+| Como paciente              |Quero descobrir a causa dos    |Para me conscientizar do meu       |
+|                            |meus sintomas e o agente       |problema e evitar que acontece     |
+|                            |causador.                      |novamente.                         |
+| Como paciente              |Quero acompanhar meu processo  |Para monitorar meu atendimento e os|                                  
+|                            |de atendimento no hospital.    |procedimentos que serão realizados.|
+| Como paciente              |Quero aprender sobre cuidados  |Para evitar nova intoxicação.      |
+|                            |preventivos.                   |                                   |
 
 ## Requisitos do Projeto
 
