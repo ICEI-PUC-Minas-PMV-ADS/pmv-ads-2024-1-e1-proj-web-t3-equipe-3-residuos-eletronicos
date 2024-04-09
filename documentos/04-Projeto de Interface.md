@@ -140,6 +140,22 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Tela de Acesso a Informações do Paciente </b></h3>
+<p>A tela apresenta um Campo de informações permitindo o usuário acessar a opção desejada.
+  
+![888](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/8275e5e7-8929-4c6f-83d6-c59454caaa8d)
+<figure> 
+  <figcaption> Figura 12 - Tela de Acesso a Informações do Paciente
+</figure> 
+<hr>
+
+<h3><b>Tela -  Informações do Paciente </b></h3>
+<p>A tela apresenta um Campo para cada paciente atendido e sua classificação de risco
+  
+![Captura de Tela (8)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/097d9eac-ca47-4dbb-bf7e-531a9c63e31c)<figure> 
+  <figcaption> Figura 13 - Informações do Paciente
+</figure> 
+<hr>
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
   
