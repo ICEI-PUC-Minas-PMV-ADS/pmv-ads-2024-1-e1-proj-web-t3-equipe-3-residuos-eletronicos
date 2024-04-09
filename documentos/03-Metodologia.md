@@ -45,22 +45,19 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 Figura 1 - Tela do kanban no GitHub utilizada pela equipe.
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p> 
+<ul> 
+  <li>Bug (Erro no código)</li> 
+  <li>Desenvolvimento (Development)</li> 
+  <li>Documentação (Documentation)</li> 
+  <li>Desenho (Design)</li>   
+  <li>Duplicate (Este problema ou pull request já existe)</li>   
+</ul> 
 
-<ul>
-  <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
-</ul>
-
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
+  ![etiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/1d801e03-69af-43b5-bce8-14d6a532ef0a)
   
+Figura 2 - Tela do esquema de cores e categorias
+    
 ### Ferramentas
 
 [Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
