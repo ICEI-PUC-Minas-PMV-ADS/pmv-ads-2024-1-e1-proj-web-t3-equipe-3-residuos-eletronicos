@@ -60,6 +60,15 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Seleção Triagem ZT Health.</b></h3>
+<p>A tela apresenta a opção do paciente abrir um formulário de triagem.
+  
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/d65af63c-a826-4cb8-99e9-95a1fac0c5f7)
+
+<figure> 
+  <figcaption> Figura 6 - Seleção de Triagem ZT Health.
+</figure> 
+<hr>
 
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
