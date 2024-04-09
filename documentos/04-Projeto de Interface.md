@@ -70,6 +70,16 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Primeira Página de Triagem.</b></h3>
+<p>A tela apresenta a primeira página da triagem do paciente com a opção de seguir para a próxima página.
+  
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/035bec11-c287-4dd6-b4ac-b6b1351dd44b)
+
+<figure> 
+  <figcaption> Figura 7 - Primeira Página de Triagem.
+</figure> 
+<hr>
+
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
   
