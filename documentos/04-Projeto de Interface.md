@@ -80,6 +80,16 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Última Página de Triagem.</b></h3>
+<p>A tela apresenta a última página da triagem do paciente com a opção de finalizar a triagem.
+  
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/7ced464b-9187-4e09-a39c-112a26244ae8)
+
+<figure> 
+  <figcaption> Figura 8 - Página Final de Triagem.
+</figure> 
+<hr>
+
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
   
