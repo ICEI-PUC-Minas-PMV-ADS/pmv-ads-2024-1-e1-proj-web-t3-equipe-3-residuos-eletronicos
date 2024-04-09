@@ -118,3 +118,39 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <figcaption> Figura 17 - Tela de Encerramento.
 </figure> 
 <hr>
+
+<h3><b>Tela - Fluxo de informações dos pacientes</b></h3>
+<p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta e inclusão de informações dos paccientes.
+  
+<img width="362" alt="Captura de Tela 2024-04-09 às 18 57 43" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/34034992-a8a9-4f24-a033-aacd2b977857">
+<figure> 
+  <figcaption> Figura 18 - Fluxo de informações dos pacientes.
+</figure> 
+<hr>
+
+<h3><b>Tela - Listagem de pacientes</b></h3>
+<p>A tela de listagem dos pacientes disponíveis apresenta todos os pacientes disponiveis para consulta de exames e demais informações.
+
+<img width="364" alt="Captura de Tela 2024-04-09 às 18 59 16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/2183803a-04f9-4663-a2b6-fc6f289f9cc2">
+<figure> 
+  <figcaption> Figura 19 - Listagem de pacientes.
+</figure> 
+<hr>
+
+<h3><b>Tela - Informações do paciente</b></h3>
+<p>A tela de informações do paciente apresenta a ficha do paciente e demais informações dele para consulta.
+
+<img width="365" alt="Captura de Tela 2024-04-09 às 19 02 12" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/e8bbe875-6fdc-4531-b5a7-3a020e5186ae">
+<figure> 
+  <figcaption> Figura 20 - Informações do paciente.
+</figure> 
+<hr>
+
+<h3><b>Tela - Inclusão de informações na ficha do paciente</b></h3>
+<p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde juntamente com a possbilidade de saltar as alterações realizadas nessa tela.
+
+<img width="361" alt="Captura de Tela 2024-04-09 às 19 05 14" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f">
+<figure> 
+  <figcaption> Figura 21 - Inclusão de informações na ficha do paciente.
+</figure> 
+<hr>
