@@ -120,6 +120,25 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <figcaption> Figura 9 - Visualização das Informações de Triagem.
 </figure> 
 <hr>
+<h3><b>Tela - Seleção de conta do profissional de saúde  </b></h3>
+<p>A tela apresenta um menu em que o profissional de saúde poderá logar na conta dele, onde será direcionado a inserir seu Coren/CRM.
+  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/f850f765-ca11-4f68-ab9c-716994937ef7)
+
+<figure> 
+  <figcaption> Figura 10 - Tela de seleção do login do profissional de saúde
+</figure> 
+<hr>
+
+<h3><b>Tela - Login do Profissional de Saúde </b></h3>
+<p>A tela apresenta um campo onde o profissional de saúde poderá inserir seu Coren/CRM para identificação do seu nome.
+  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/67af884d-573d-44f8-a979-a5c377fde078)
+
+<figure> 
+  <figcaption> Figura 11 - Tela de login do profissional de saúde
+</figure> 
+<hr>
 
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
