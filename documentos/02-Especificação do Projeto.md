@@ -84,8 +84,14 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |A aplicação deve permitir dois tipos de usuários para login: profissionais da saúde e pacientes.                     |ALTA  | 
+| RF-02  | A aplicação deve permitir que responda sobre seus sintomas e seu histórico numa espécie de formulário e permitir o profissional classificar o nível de urgência no atendimento ao paciente.  |  ALTA  |
+| RF-03  | A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde e classificar o nível de urgência no atendimento ao paciente.  |  ALTA  |
+| RF-04  |A aplicação deve permitir ao profissional inserir e pesquisar a classificação da intoxicação em questão no CID-10. |  ALTA  |
+| RF-05  |Permitir o profissional disponibilizar na aplicação o diagnóstico e tratamento online para o paciente. |  MÉDIA  |
+| RF-06  |Permitir ao profissional de saúde fornecer dicas de como evitar uma nova intoxicação|  MÉDIA  |
+| RF-07  |A aplicação deve permitir mostrar os resultados dos exames realizados. |  MÉDIA  |
+| RF-08  |A aplicação deve permitir que o paciente possa ler informações de resíduos tóxicos e sintomatologia causadas por essas substâncias por meio de artigos |  MÉDIA  |
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -95,8 +101,10 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 | A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.                  | ALTA | 
+| RNF-02  |A aplicação deve permitir funcionalidades para dois usuários: profissionais da saúde e pacientes.                  | ALTA | 
+| RNF-03 | A aplicação deve ter bom nível de contraste entre os elementos da tela visando a usabilidade.| MÉDIA|
+|RNF-04|A aplicação deve ter bom nível de contraste entre os elementos da tela visando a usabilidade.| BAIXA|
 
 **Prioridade: Alta / Média / Baixa. 
 
