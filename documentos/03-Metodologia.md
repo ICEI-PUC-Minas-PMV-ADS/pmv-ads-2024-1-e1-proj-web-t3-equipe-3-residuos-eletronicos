@@ -30,12 +30,12 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o projeto do GitHub estruturado em modo Kanban seguindo as seguintes listas:
+Para organizar e dividir as tarefas do projeto, nossa equipe está usando o GitHub, onde criamos um quadro de tarefas chamado Kanban. Nele, temos quatro listas:
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- Backlog: Aqui, listamos todas as tarefas que precisamos fazer, é como uma lista de desejos. Tudo o que precisa ser feito está aqui. Representa o Product Backlog.
+- To Do: Esta lista mostra as tarefas que estamos focados agora. É como a lista de tarefas para o dia ou semana. Representa o Sprint Backlog.
+- Doing: Quando começamos a trabalhar em uma tarefa, movemos ela para esta lista. Ou seja, é onde estão as tarefas em andamento.
+- Done: Aqui, colocamos as tarefas que já foram concluídas, testadas e estão prontas para serem usadas pelo usuário. Elas estão totalmente finalizadas, sem precisar de mais nada.
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/958 e é apresentado, no estado atual, na figura abaixo:
 
