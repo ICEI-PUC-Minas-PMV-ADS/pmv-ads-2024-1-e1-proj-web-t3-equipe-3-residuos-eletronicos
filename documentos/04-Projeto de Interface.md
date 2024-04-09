@@ -63,7 +63,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Seleção Triagem ZT Health.</b></h3>
 <p>A tela apresenta a opção do paciente abrir um formulário de triagem.
   
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/d65af63c-a826-4cb8-99e9-95a1fac0c5f7)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/0076605b-8bbf-4efd-a86f-b31e9bec0e9a)
 
 <figure> 
   <figcaption> Figura 6 - Seleção de Triagem ZT Health.
@@ -73,7 +73,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Primeira Página de Triagem.</b></h3>
 <p>A tela apresenta a primeira página da triagem do paciente com a opção de seguir para a próxima página.
   
-![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/035bec11-c287-4dd6-b4ac-b6b1351dd44b)
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/618e9f80-ab67-4e8c-b747-ada0371862d7)
 
 <figure> 
   <figcaption> Figura 7 - Primeira Página de Triagem.
