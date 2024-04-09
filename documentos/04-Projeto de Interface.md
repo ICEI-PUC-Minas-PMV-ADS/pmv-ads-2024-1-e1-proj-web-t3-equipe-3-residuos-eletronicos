@@ -90,6 +90,16 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Visualização das Informações de Triagem.</b></h3>
+<p>Permite o Úsuario visualizar suas informações de entrada da triagem e verificar se estão todas corretas antes de sua confirmação.
+  
+![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/6ff2f834-7b94-4d1c-a47e-2c2343d552bb)
+
+<figure> 
+  <figcaption> Figura 9 - Visualização das Informações de Triagem.
+</figure> 
+<hr>
+
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
   
