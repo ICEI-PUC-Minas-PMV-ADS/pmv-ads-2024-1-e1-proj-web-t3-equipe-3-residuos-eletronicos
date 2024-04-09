@@ -160,7 +160,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <hr>
 
 <h3><b>Tela - Fluxo de informações dos pacientes</b></h3>
-<p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta e inclusão de informações dos paccientes.
+<p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta de informações.
   
 <img width="362" alt="Captura de Tela 2024-04-09 às 18 57 43" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/34034992-a8a9-4f24-a033-aacd2b977857">
 <figure> 
@@ -187,7 +187,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <hr>
 
 <h3><b>Tela - Inclusão de informações na ficha do paciente</b></h3>
-<p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde juntamente com a possbilidade de saltar as alterações realizadas nessa tela.
+<p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde.
 
 <img width="361" alt="Captura de Tela 2024-04-09 às 19 05 14" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f">
 <figure> 
