@@ -5,7 +5,7 @@
 
 Fluxo de usuário (User Flow) é uma técnica que descreve as etapas que um usuário realiza, as decisões que ele toma e as ações que ele executa ao interagir com a interface criada para o ele para alcançar um objetivo específico. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue.
 ![ZT HEALTH](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/faf49d4b-31e5-4f1d-a4da-e4872700d06e)
-
+Figura 1 - Fluxo de telas do usuário
 
 > **Links Úteis**:
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
