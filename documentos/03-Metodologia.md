@@ -75,4 +75,4 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ### Estratégia de Organização de Codificação 
 
-Existem casos consideráveis de intoxicação e morte que possuem como causa a intoxicaçao exógena, que conforme dados disponibilizados pela Vigilância da Saude do Estado de São Paulo, atualizados no ano de 2024,  vem aumentando a cada ano que passa, ressaltando a importância do levantamento desses dados.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/tree/main).
