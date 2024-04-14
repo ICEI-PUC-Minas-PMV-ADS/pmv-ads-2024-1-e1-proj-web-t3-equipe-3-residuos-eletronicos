@@ -196,7 +196,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Listagem de pacientes</b></h3>
 <p>A tela de listagem dos pacientes disponíveis apresenta todos os pacientes disponiveis para consulta de exames e demais informações.
 
-<img width="364" alt="Captura de Tela 2024-04-09 às 18 59 16" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/2183803a-04f9-4663-a2b6-fc6f289f9cc2">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/2183803a-04f9-4663-a2b6-fc6f289f9cc2"  alt="Figura 19 - 
+   Listagem de pacientes" width="450"/>
 <figure> 
   <figcaption> Figura 19 - Listagem de pacientes.
 </figure> 
