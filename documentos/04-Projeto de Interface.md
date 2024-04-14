@@ -113,10 +113,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Visualização das Informações de Triagem.</b></h3>
 <p>Permite o Úsuario visualizar suas informações de entrada da triagem e verificar se estão todas corretas antes de sua confirmação.
   
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/6ff2f834-7b94-4d1c-a47e-2c2343d552bb)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/6ff2f834-7b94-4d1c-a47e-2c2343d552bb"  alt="Figura 11 - 
+  Tela-Visualização das Informações de Triagem " width="450"/>
 
 <figure> 
-  <figcaption> Figura 9 - Visualização das Informações de Triagem.
+  <figcaption> Figura 11 - Visualização das Informações de Triagem.
 </figure> 
 <hr>
 <h3><b>Tela - Seleção de conta do profissional de saúde  </b></h3>
