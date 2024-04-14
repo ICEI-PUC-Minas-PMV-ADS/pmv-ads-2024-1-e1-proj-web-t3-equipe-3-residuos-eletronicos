@@ -165,7 +165,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Logout.</b></h3>
 <p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
   
-![99](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/256f5fe2-dce2-40c8-9689-2d557e35f614)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/256f5fe2-dce2-40c8-9689-2d557e35f614" alt="Figura 16 - 
+  Tela- Logout " width="450"/>
 <figure> 
   <figcaption> Figura 16 - Tela de Logout.
 </figure> 
