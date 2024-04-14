@@ -216,7 +216,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Inclusão de informações na ficha do paciente</b></h3>
 <p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde.
 
-<img width="361" alt="Captura de Tela 2024-04-09 às 19 05 14" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f"  alt="Figura 21 - 
+    Inclusão de informações na ficha do paciente" width="450"/>
 <figure> 
   <figcaption> Figura 21 - Inclusão de informações na ficha do paciente.
 </figure> 
