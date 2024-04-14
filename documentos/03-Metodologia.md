@@ -56,7 +56,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/codigo-fonte/README.md|
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos|
-| Projeto de Interface                | Figma                              | http://....                            |
+| Projeto de Interface                | Figma                              | https://teams.microsoft.com/l/message/19:21289cccc8c14af283f000e549b70822@thread.tacv2/1713047938431?tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161&groupId=162e18b9-3493-401a-8521-0c3e821023f6&parentMessageId=1713047938431&teamName=PROJETO%3A%20DESENVOLVIMENTO%20-%204577103%20-%20ADS%20-%20EAD%20-%20VIRTUAL%20-%20PUV&channelName=Equipe%203%20-%20Res%C3%ADduos%20Eletr%C3%B4nicos%20-%20Ter%C3%A7a%2019h30&createdTime=1713047938431&ngc=true                   |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/958|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
