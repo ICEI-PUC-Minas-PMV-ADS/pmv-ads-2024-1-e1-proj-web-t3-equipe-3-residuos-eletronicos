@@ -25,7 +25,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Fluxo de Entrada Pública</b></h3>
 <p>A tela de Fluxo de Entrada apresenta banners que remetem ao Atendimento ao Público e opções de artigos do projeto. </p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela Fluxo de Entrada Público" width="500"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela Fluxo de Entrada Público" width="450"/>
 </br>
 <figure>  
   <figcaption> Figura 3 - Tela Fluxo de Entrada Público
@@ -35,7 +35,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Fluxo de Artigos</b></h3>
 <p>A tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0" alt="Figura 4 -  tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas" width="500"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0" alt="Figura 4 -  tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas" width="450"/>
   
 <figure> 
   <figcaption> Figura 4 - Tela Fluxo de Artigos.
@@ -47,7 +47,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <p>A tela Fluxos da Página do artigo selecionado.
   
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374"  alt="Figura 5 - 
-  tela Artigos relacionado " width="500"/>
+  tela Artigos relacionado " width="450"/>
   
 <figure> 
   <figcaption> Figura 5 - Tela do Artigo Selecionado.
@@ -57,10 +57,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Seleção de conta Paciente </b></h3>
 <p>A tela apresenta um menu em que o paciente poderá logar na conta dele, onde será direcionado a inserir seu CPF.
   
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e2b327d7-0266-4818-940b-ccc28e1766a0)  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e2b327d7-0266-4818-940b-ccc28e1766a0"  alt="Figura 6 - 
+  tela Seleção de Conta Paciente " width="450"/>
 
 <figure> 
-  <figcaption> Figura 4 - Tela de seleção do login do paciente
+  <figcaption> Figura 6 - Tela de seleção do login do paciente
 </figure> 
 <hr>
 
