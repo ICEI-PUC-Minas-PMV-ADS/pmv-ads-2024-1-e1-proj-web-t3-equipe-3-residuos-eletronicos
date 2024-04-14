@@ -156,8 +156,10 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela -  Informações do Paciente </b></h3>
 <p>A tela apresenta um Campo para cada paciente atendido e sua classificação de risco
   
-![Captura de Tela (8)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/097d9eac-ca47-4dbb-bf7e-531a9c63e31c)<figure> 
-  <figcaption> Figura 13 - Informações do Paciente
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/097d9eac-ca47-4dbb-bf7e-531a9c63e31c"  alt="Figura 15 - 
+  Tela- Informações do Paciente  " width="450"/>
+<figure> 
+  <figcaption> Figura 15 - Informações do Paciente
 </figure> 
 <hr>
 <h3><b>Tela - Logout.</b></h3>
