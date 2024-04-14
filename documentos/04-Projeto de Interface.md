@@ -22,44 +22,41 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
-<h3><b>Tela - Fluxo de Entrada Pública</b></h3>
-<p>A tela de Fluxo de Entrada apresenta banners que remetem ao Atendimento ao Público e opções de artigos do projeto. </p>
+<h3><b>Tela - Entrada inicial Pública</b></h3>
+<p>A tela de Fluxo de Entrada da aplicação é pública, apresenta tags de temas e artigos que podem ser selecionados de acordo com o interesse de qualquer um.</p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela Fluxo de Entrada Público" width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela de Entrada Inicial Pública" width="450"/>
 </br>
 <figure>  
-  <figcaption> Figura 3 - Tela Fluxo de Entrada Público
+  <figcaption> Figura 3 - Tela de Entrada Inicial Pública
 </figure> 
 <hr>
 
-<h3><b>Tela - Fluxo de Artigos</b></h3>
-<p>A tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas
+<h3><b>Tela - Temas de Artigos da tag</b></h3>
+<p>A Tela de Temas de Artigos é apresentado os artigos relacionados de acordo com cada opção de tag selecionada.</p>
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0" alt="Figura 4 -  tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas" width="450"/>
-  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0" alt="Figura 4 - Tela de Temas de Artigos da tag" width="450"/>
+</br> 
 <figure> 
-  <figcaption> Figura 4 - Tela Fluxo de Artigos.
+  <figcaption> Figura 4 - Tela de Temas de Artigos da tag
 </figure> 
 <hr>
 
-
-<h3><b>Tela - Artigos Selecionado.</b></h3>
-<p>A tela Fluxos da Página do artigo selecionado.
+<h3><b>Tela - Artigos Individual Selecionado</b></h3>
+<p>A tela de apresentação do artigo individualmente selecionado.</p>
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374"  alt="Figura 5 - 
-  tela Artigos relacionado " width="450"/>
-  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374"  alt="Figura 5 - Tela de Artigos Individual Selecionado" width="450"/>
+</br>  
 <figure> 
-  <figcaption> Figura 5 - Tela do Artigo Selecionado.
+  <figcaption> Figura 5 - tela de Artigos Individual Selecionado
 </figure> 
 <hr>
 
-<h3><b>Tela - Seleção de conta Paciente </b></h3>
+<h3><b>Tela - Fluxo Seleção de conta Paciente </b></h3>
 <p>A tela apresenta um menu em que o paciente poderá logar na conta dele, onde será direcionado a inserir seu CPF.
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e2b327d7-0266-4818-940b-ccc28e1766a0"  alt="Figura 6 - 
-  tela Seleção de Conta Paciente " width="450"/>
-
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e2b327d7-0266-4818-940b-ccc28e1766a0"  alt="Figura 6 - tela Seleção de Conta Paciente " width="450"/>
+</br>
 <figure> 
   <figcaption> Figura 6 - Tela de seleção do login do paciente
 </figure> 
@@ -68,20 +65,19 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Login do Paciente </b></h3>
 <p>A tela apresenta um campo onde o paciente poderá inserir seu CPF para identificação do seu Cartão SUS.
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0114774e-e23b-4a76-a30a-116f098fae2c"  alt="Figura 7 - 
-  tela Login do Paciente " width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0114774e-e23b-4a76-a30a-116f098fae2c"  alt="Figura 7 - tela Login do Paciente " width="450"/>
+</br>
 
 <figure> 
   <figcaption> Figura 7 - Tela de login do paciente
 </figure> 
 <hr>
 
-
 <h3><b>Tela - Seleção Triagem ZT Health.</b></h3>
 <p>A tela apresenta a opção do paciente abrir um formulário de triagem.
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/0076605b-8bbf-4efd-a86f-b31e9bec0e9a"  alt="Figura 8 - 
-  tela Seleção Triagem ZT Health " width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/0076605b-8bbf-4efd-a86f-b31e9bec0e9a"  alt="Figura 8 - tela Seleção Triagem ZT Health " width="450"/>
+</br>
 
 <figure> 
   <figcaption> Figura 8 - Seleção de Triagem ZT Health.
@@ -91,8 +87,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Primeira Página de Triagem.</b></h3>
 <p>A tela apresenta a primeira página da triagem do paciente com perguntas de múltipla escolha e a opção de seguir para a próxima página.
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/effe8237-adf6-4538-9064-1f7cb66ff7bb"  alt="Figura 9 - 
-  Tela-Primeira Página de Triagem " width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/effe8237-adf6-4538-9064-1f7cb66ff7bb"  alt="Figura 9 - Tela-Primeira Página de Triagem " width="450"/>
+</br>
 
 <figure> 
   <figcaption> Figura 9 - Primeira Página de Triagem.
@@ -102,8 +98,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Última Página de Triagem.</b></h3>
 <p>A tela apresenta a última página da triagem do paciente com a opção de fazer um comentário em texto mais detalhado sobre os sintomas e finalizar a triagem.
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/bebd4639-baa2-4208-8b77-62bbdc51df5e"   alt="Figura 10 - 
-  Tela- Última Página de Triagem " width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/bebd4639-baa2-4208-8b77-62bbdc51df5e"   alt="Figura 10 - Tela- Última Página de Triagem " width="450"/>
+</br>
 
 <figure> 
   <figcaption> Figura 10 - Página Final de Triagem.
