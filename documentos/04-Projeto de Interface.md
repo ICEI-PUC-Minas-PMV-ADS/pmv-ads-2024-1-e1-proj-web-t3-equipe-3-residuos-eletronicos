@@ -186,7 +186,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Fluxo de informações dos pacientes</b></h3>
 <p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta de informações.
   
-<img width="362" alt="Captura de Tela 2024-04-09 às 18 57 43" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/34034992-a8a9-4f24-a033-aacd2b977857">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/34034992-a8a9-4f24-a033-aacd2b977857"   alt="Figura 18 - 
+  Fluxo de informações dos pacientes" width="450"/>
 <figure> 
   <figcaption> Figura 18 - Fluxo de informações dos pacientes.
 </figure> 
