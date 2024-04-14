@@ -92,7 +92,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <p>A tela apresenta a primeira página da triagem do paciente com perguntas de múltipla escolha e a opção de seguir para a próxima página.
   
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/effe8237-adf6-4538-9064-1f7cb66ff7bb"  alt="Figura 9 - 
-  tela-Primeira Página de Triagem " width="450"/>
+  Tela-Primeira Página de Triagem " width="450"/>
 
 <figure> 
   <figcaption> Figura 9 - Primeira Página de Triagem.
@@ -102,10 +102,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Última Página de Triagem.</b></h3>
 <p>A tela apresenta a última página da triagem do paciente com a opção de fazer um comentário em texto mais detalhado sobre os sintomas e finalizar a triagem.
   
-![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/bebd4639-baa2-4208-8b77-62bbdc51df5e)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/bebd4639-baa2-4208-8b77-62bbdc51df5e"   alt="Figura 10 - 
+  Tela- Última Página de Triagem " width="450"/>
 
 <figure> 
-  <figcaption> Figura 8 - Página Final de Triagem.
+  <figcaption> Figura 10 - Página Final de Triagem.
 </figure> 
 <hr>
 
