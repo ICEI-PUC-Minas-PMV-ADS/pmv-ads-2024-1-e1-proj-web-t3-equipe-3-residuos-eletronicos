@@ -80,10 +80,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Seleção Triagem ZT Health.</b></h3>
 <p>A tela apresenta a opção do paciente abrir um formulário de triagem.
   
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/0076605b-8bbf-4efd-a86f-b31e9bec0e9a)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/79770782/0076605b-8bbf-4efd-a86f-b31e9bec0e9a"  alt="Figura 8 - 
+  tela Seleção Triagem ZT Health " width="450"/>
 
 <figure> 
-  <figcaption> Figura 6 - Seleção de Triagem ZT Health.
+  <figcaption> Figura 8 - Seleção de Triagem ZT Health.
 </figure> 
 <hr>
 
