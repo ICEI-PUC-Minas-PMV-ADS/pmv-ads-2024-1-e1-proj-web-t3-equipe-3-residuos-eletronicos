@@ -24,13 +24,13 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <h3><b>Tela - Fluxo de Entrada Pública</b></h3>
 <p>A tela de Fluxo de Entrada apresenta banners que remetem ao Atendimento ao Público e opções de artigos do projeto. </p>
-  
-![000](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f)
-<figure> 
-  <figcaption>Figura 1 - Tela Fluxo de Entrada Público
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela Fluxo de Entrada Público" width="500"/>
+</br>
+<figure>  
+  <figcaption> Figura 3 - Tela Fluxo de Entrada Público
 </figure> 
 <hr>
-
 
 <h3><b>Tela - Fluxo de Artigos</b></h3>
 <p>A tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas
