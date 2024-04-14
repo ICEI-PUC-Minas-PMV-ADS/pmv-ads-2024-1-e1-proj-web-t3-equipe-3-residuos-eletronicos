@@ -206,7 +206,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Informações do paciente</b></h3>
 <p>A tela de informações do paciente apresenta a ficha do paciente e demais informações dele para consulta.
 
-<img width="365" alt="Captura de Tela 2024-04-09 às 19 02 12" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/e8bbe875-6fdc-4531-b5a7-3a020e5186ae">
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/e8bbe875-6fdc-4531-b5a7-3a020e5186ae"  alt="Figura 20 - 
+   Informações do paciente" width="450"/>
 <figure> 
   <figcaption> Figura 20 - Informações do paciente.
 </figure> 
