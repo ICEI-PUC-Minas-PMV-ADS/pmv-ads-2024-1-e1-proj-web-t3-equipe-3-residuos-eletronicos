@@ -46,10 +46,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Artigos Selecionado.</b></h3>
 <p>A tela Fluxos da Página do artigo selecionado.
   
-![09](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374"  alt="Figura 5 - 
+  tela Artigos relacionado " width="500"/>
   
 <figure> 
-  <figcaption> Figura 4 - Tela do Artigo Selecionado.
+  <figcaption> Figura 5 - Tela do Artigo Selecionado.
 </figure> 
 <hr>
 
