@@ -176,7 +176,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Encerramento.</b></h3>
 <p>A tela de ecerramento apresenta a opção ao úsuario se ele deseja realmente encerra o atendimento realizado.
   
-![88](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/43ad4021-be1c-4369-abca-653346c4adbf)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/43ad4021-be1c-4369-abca-653346c4adbf"  alt="Figura 17 - 
+  Tela- Encerramento" width="450"/>
 <figure> 
   <figcaption> Figura 17 - Tela de Encerramento.
 </figure> 
