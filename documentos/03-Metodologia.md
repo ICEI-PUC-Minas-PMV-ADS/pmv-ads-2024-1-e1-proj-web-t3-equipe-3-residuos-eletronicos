@@ -10,23 +10,13 @@ Além de que o Scrum foca na entrega incremental de funcionalidades. Isso signif
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento. Desta forma, a equipe está organizada da seguinte maneira: 
 
-- Scrum Master: Nayana Loivos (principal responsável pela gestão do projeto). 
+- Scrum Master: Nayana Loivos.
 
-- Product Owner: Handryws Junior (representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog). 
+- Product Owner: Handryws Junior e João Tannus.
 
-- Equipe de Desenvolvimento: Handryws Junior, Isabella Augusta, João Vítor Tannus de Araujo, Nayana Loivos (todos os membros deverão implementar uma tela/funcionalidade). 
+- Equipe de Desenvolvimento: Handryws Junior, Isabella Augusta, João Tannus, Nayana Loivos.
 
-- Equipe de Design: Nayana Loivos e Isabella Augusta (membros da equipe que trabalharão com design). 
-
-  
-
-> **Links Úteis**: 
-
-> - [11 Passos Essenciais para Implantar Scrum no seu  
-
-> Projeto](https://mindmaster.com.br/scrum-11-passos/) 
-
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0) 
+- Equipe de Design: Nayana Loivos e Isabella Augusta.
 
 ### Processo
 
@@ -59,8 +49,6 @@ Figura 1 - Tela do kanban no GitHub utilizada pela equipe.
 Figura 2 - Tela do esquema de cores e categorias
     
 ### Ferramentas
-
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
