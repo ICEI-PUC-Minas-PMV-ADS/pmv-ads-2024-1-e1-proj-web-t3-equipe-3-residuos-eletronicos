@@ -68,10 +68,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Login do Paciente </b></h3>
 <p>A tela apresenta um campo onde o paciente poderá inserir seu CPF para identificação do seu Cartão SUS.
   
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0114774e-e23b-4a76-a30a-116f098fae2c)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0114774e-e23b-4a76-a30a-116f098fae2c"  alt="Figura 7 - 
+  tela Login do Paciente " width="450"/>
 
 <figure> 
-  <figcaption> Figura 5 - Tela de login do paciente
+  <figcaption> Figura 7 - Tela de login do paciente
 </figure> 
 <hr>
 
