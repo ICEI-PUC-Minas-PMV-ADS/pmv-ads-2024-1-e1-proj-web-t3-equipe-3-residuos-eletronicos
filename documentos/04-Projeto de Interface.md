@@ -35,10 +35,10 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Fluxo de Artigos</b></h3>
 <p>A tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas
   
-![01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/276ee6fb-c703-4fb9-8139-795447f8dec0" alt="Figura 4 -  tela Fluxos de Artigos apresenta Temas relacionado aos artigos envolvidos nas substâncias Químicas" width="500"/>
   
 <figure> 
-  <figcaption> Figura 2 - Tela Fluxo de Artigos.
+  <figcaption> Figura 4 - Tela Fluxo de Artigos.
 </figure> 
 <hr>
 
@@ -49,7 +49,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 ![09](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/6fd86c27-f8b1-4e28-ae91-e219c8685374)
   
 <figure> 
-  <figcaption> Figura 3 - Tela do Artigo Selecionado.
+  <figcaption> Figura 4 - Tela do Artigo Selecionado.
 </figure> 
 <hr>
 
