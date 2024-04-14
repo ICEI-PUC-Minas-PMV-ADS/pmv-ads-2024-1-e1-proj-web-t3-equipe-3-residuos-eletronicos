@@ -11,8 +11,8 @@ Figura 1 - Fluxo de telas do usuário
 
 As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
 <ul>
-  <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
-  <li>Conteúdo - apresenta o conteúdo dos usuários e artigos relacionados;</li>
+  <li>Cabeçalho - local onde está disposto a navegação principal do site (Minha Conta);</li>
+  <li>Conteúdo - apresenta o conteúdo de artigos e conteúdos dos usuários relacionados;</li>
   <li>Rodapé - apresenta informações sobre site.</li>
 </ul>
 
