@@ -123,10 +123,11 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Seleção de conta do profissional de saúde  </b></h3>
 <p>A tela apresenta um menu em que o profissional de saúde poderá logar na conta dele, onde será direcionado a inserir seu Coren/CRM.
   
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/f850f765-ca11-4f68-ab9c-716994937ef7)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/f850f765-ca11-4f68-ab9c-716994937ef7"  alt="Figura 12 - 
+  Tela- Seleção de conta do profissional de saúde " width="450"/>
 
 <figure> 
-  <figcaption> Figura 10 - Tela de seleção do login do profissional de saúde
+  <figcaption> Figura 12 - Tela de seleção do login do profissional de saúde
 </figure> 
 <hr>
 
