@@ -4,7 +4,10 @@
 ## User Flow
 
 Fluxo de usuário (User Flow) é uma técnica que descreve as etapas que um usuário realiza, as decisões que ele toma e as ações que ele executa ao interagir com a interface criada para o ele para alcançar um objetivo específico. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue.
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/4fd06cc0-8572-4345-a297-355dc193f378)
+<figure>
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/4fd06cc0-8572-4345-a297-355dc193f378" alt="Figura 1 - Fluxo de telas do usuário" width="1500"/>
+</br>
+</figure>
 Figura 1 - Fluxo de telas do usuário
 
 ## Protótipo
@@ -25,7 +28,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Entrada inicial Pública</b></h3>
 <p>A tela de Fluxo de Entrada da aplicação é pública, apresenta tags de temas e artigos que podem ser selecionados de acordo com o interesse de qualquer um.</p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 1 - Tela de Entrada Inicial Pública" width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/15c76b8c-332d-4c09-8c2f-d0e6af97388f" alt="Figura 3 - Tela de Entrada Inicial Pública" width="450"/>
 </br>
 <figure>  
   <figcaption> Figura 3 - Tela de Entrada Inicial Pública
@@ -150,93 +153,77 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <hr>
 
 <h3><b>Tela - Login do Profissional de Saúde </b></h3>
-<p>A tela apresenta um campo onde o profissional de saúde poderá inserir seu Coren/CRM para identificação do seu nome.
+<p>A tela apresenta um campo onde o profissional de saúde poderá inserir seu Coren/CRM para identificação do seu nome.</p>
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/67af884d-573d-44f8-a979-a5c377fde078"  alt="Figura 13 - 
-  Tela- Login do Profissional de Saúde  " width="450"/>
-
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/3676ac24-0360-4ccc-afb5-a1179cf6bcfc"  alt="Figura 15 - Tela- Login do Profissional de Saúde  " width="450"/>
+</br>
 
 <figure> 
-  <figcaption> Figura 13 - Tela de login do profissional de saúde
-</figure> 
-<hr>
-
-<h3><b>Tela - Tela de Acesso a Informações do Paciente </b></h3>
-<p>A tela apresenta um Campo de informações permitindo o usuário acessar a opção desejada.
-  
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/8275e5e7-8929-4c6f-83d6-c59454caaa8d" alt="Figura 14 - 
-  Tela- Tela de Acesso a Informações do Paciente  " width="450"/>
-<figure> 
-  <figcaption> Figura 14 - Tela de Acesso a Informações do Paciente
-</figure> 
-<hr>
-
-<h3><b>Tela -  Informações do Paciente </b></h3>
-<p>A tela apresenta um Campo para cada paciente atendido e sua classificação de risco
-  
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/097d9eac-ca47-4dbb-bf7e-531a9c63e31c"  alt="Figura 15 - 
-  Tela- Informações do Paciente  " width="450"/>
-<figure> 
-  <figcaption> Figura 15 - Informações do Paciente
-</figure> 
-<hr>
-<h3><b>Tela - Logout.</b></h3>
-<p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma .
-  
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/256f5fe2-dce2-40c8-9689-2d557e35f614" alt="Figura 16 - 
-  Tela- Logout " width="450"/>
-<figure> 
-  <figcaption> Figura 16 - Tela de Logout.
-</figure> 
-<hr>
-
-
-<h3><b>Tela - Encerramento.</b></h3>
-<p>A tela de ecerramento apresenta a opção ao úsuario se ele deseja realmente encerra o atendimento realizado.
-  
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/43ad4021-be1c-4369-abca-653346c4adbf"  alt="Figura 17 - 
-  Tela- Encerramento" width="450"/>
-<figure> 
-  <figcaption> Figura 17 - Tela de Encerramento.
+  <figcaption> Figura 15  - Tela de login do profissional de saúde
 </figure> 
 <hr>
 
 <h3><b>Tela - Fluxo de informações dos pacientes</b></h3>
-<p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta de informações.
+<p>A tela de fluxo de informações dos pacientes apresenta as opcões disponíveis para o profissional da saúde para consulta de informações.</p>
   
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/34034992-a8a9-4f24-a033-aacd2b977857"   alt="Figura 18 - 
-  Fluxo de informações dos pacientes" width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/8275e5e7-8929-4c6f-83d6-c59454caaa8d" alt="Figura 16 - Tela - Fluxo de informações dos pacientes" width="450"/>
+</br>
+ 
 <figure> 
-  <figcaption> Figura 18 - Fluxo de informações dos pacientes.
+  <figcaption> Figura 16 - Tela - Fluxo de informações dos pacientes
 </figure> 
 <hr>
 
 <h3><b>Tela - Listagem de pacientes</b></h3>
-<p>A tela de listagem dos pacientes disponíveis apresenta todos os pacientes disponiveis para consulta de exames e demais informações.
+<p>A tela de listagem dos pacientes disponíveis apresenta todos os pacientes disponiveis para consulta de exames e demais informações.</p>
+  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/097d9eac-ca47-4dbb-bf7e-531a9c63e31c"  alt="Figura 17 - Tela - Listagem de pacientes" width="450"/>
+</br>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/2183803a-04f9-4663-a2b6-fc6f289f9cc2"  alt="Figura 19 - 
-   Listagem de pacientes" width="450"/>
 <figure> 
-  <figcaption> Figura 19 - Listagem de pacientes.
+  <figcaption> Figura 17 - Tela - Listagem de pacientes
 </figure> 
 <hr>
 
 <h3><b>Tela - Informações do paciente</b></h3>
-<p>A tela de informações do paciente apresenta a ficha do paciente e demais informações dele para consulta.
+<p>A tela de informações do paciente apresenta a ficha do paciente e demais informações dele para consulta.</p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/e8bbe875-6fdc-4531-b5a7-3a020e5186ae"  alt="Figura 20 - 
-   Informações do paciente" width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/e8bbe875-6fdc-4531-b5a7-3a020e5186ae"  alt="Figura 18 - Informações do paciente" width="450"/>
+</br>
+
 <figure> 
-  <figcaption> Figura 20 - Informações do paciente.
+  <figcaption> Figura 18 - Informações do paciente
 </figure> 
 <hr>
 
 <h3><b>Tela - Inclusão de informações na ficha do paciente</b></h3>
-<p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde.
+<p>A tela de inclusão de informações na ficha do paciente aprensenta a possibilidade de inclusão das informações pelo profissional da saúde.</p>
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f"  alt="Figura 21 - 
-    Inclusão de informações na ficha do paciente" width="450"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/171ebae7-195a-48e2-9827-05dc0b0ca22f"  alt="Figura 19 - Inclusão de informações na ficha do paciente" width="450"/>
+</br>
+
 <figure> 
-  <figcaption> Figura 21 - Inclusão de informações na ficha do paciente.
+  <figcaption> Figura 19 - Inclusão de informações na ficha do paciente
+</figure> 
+<hr> 
+    
+<h3><b>Tela - Logout.</b></h3>
+<p>A tela de Logout Apresenta informações para que o úsuario tenha a opção de sair da plataforma.</p>
+  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/dc83f9dc-7aeb-48af-9d7d-c2db5ac389f1" alt="Figura 20 - Tela- Logout " width="450"/>
+</br>
+
+<figure> 
+  <figcaption> Figura 20 - Tela de Logout
 </figure> 
 <hr>
+    
+<h3><b>Tela - Encerramento</b></h3>
+<p>A tela de ecerramento apresenta a opção ao úsuario se ele deseja realmente encerra o atendimento realizado.</p>
+  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/43ad4021-be1c-4369-abca-653346c4adbf"  alt="Figura 21 - Tela- Encerramento" width="450"/>
+</br>
+
+<figure> 
+  <figcaption> Figura 21 - Tela de Encerramento
+</figure>
