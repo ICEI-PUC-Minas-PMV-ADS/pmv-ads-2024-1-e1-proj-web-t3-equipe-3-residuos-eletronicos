@@ -146,9 +146,10 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Tela de Acesso a Informações do Paciente </b></h3>
 <p>A tela apresenta um Campo de informações permitindo o usuário acessar a opção desejada.
   
-![888](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/8275e5e7-8929-4c6f-83d6-c59454caaa8d)
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/8275e5e7-8929-4c6f-83d6-c59454caaa8d" alt="Figura 14 - 
+  Tela- Tela de Acesso a Informações do Paciente  " width="450"/>
 <figure> 
-  <figcaption> Figura 12 - Tela de Acesso a Informações do Paciente
+  <figcaption> Figura 14 - Tela de Acesso a Informações do Paciente
 </figure> 
 <hr>
 
