@@ -49,6 +49,14 @@ Figura 1 - Tela do kanban no GitHub utilizada pela equipe.
 Figura 2 - Tela do esquema de cores e categorias
     
 ### Ferramentas
+As ferramentas empregadas no projeto são:
+•	Editor de código WebStorm da JetBrains.
+•	Ferramentas de comunicação Teams.
+•	Ferramentas de desenho de tela Figma.
+
+O editor de código foi escolhido porque é uma ferramenta muito útil no mercado de trabalho atual e de uso gratuito para estudantes que possui recursos que facilitam aos indivíduos inciantes no mundo da programação a focarem no que é realmente importante nesse momento que é a aprendizagem da escrita do código, uma vez que é uma IDEA pronta para uso sem a necessidade de muitas configurações ou instalações adicionais e possui uma integração com o sistema de versionamento Git e GitHub.
+A ferramenta de comunicação escolhida: Teams foi escolhida porque podemos compartilhar e armazenar aquivos, fazer vídeos chamadas cooperativas entre os integrantes, manter forúm individual para as discursões do grupo. Monstrando uma opção bastante útil no aspecto de uma comunicação mais completa e complexa. 
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma, apresentadas com seu propósito na tabela que se segue.
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
@@ -59,7 +67,6 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Figma                              | https://www.figma.com/file/jXAt7sjEOpUYgavvjUqNxB/ZT-HEALTH?type=design&node-id=0-1&mode=design&t=p31hYwePQtZeZpcA-0|
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/958|
 | Hospedagem                          | GitHub Pages                       | http://....                            |
-
 
 ### Estratégia de Organização de Codificação 
 
