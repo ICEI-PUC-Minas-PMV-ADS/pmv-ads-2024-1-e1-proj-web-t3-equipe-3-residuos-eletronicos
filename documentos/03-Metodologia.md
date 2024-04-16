@@ -50,10 +50,10 @@ Figura 2 - Tela do esquema de cores e categorias
     
 ### Ferramentas
 As ferramentas empregadas no projeto são:
-•	Editor de código WebStorm da JetBrains.
-•	Ferramentas de comunicação Teams.
-•	Ferramentas de desenho de tela Figma.
-
+<li>Editor de código WebStorm da JetBrains.</li>	
+<li>Ferramentas de comunicação Teams.</li>	
+<li>Ferramentas de desenho de tela Figma.</li>	
+</br>
 O editor de código foi escolhido porque é uma ferramenta muito útil no mercado de trabalho atual e de uso gratuito para estudantes que possui recursos que facilitam aos indivíduos inciantes no mundo da programação a focarem no que é realmente importante nesse momento que é a aprendizagem da escrita do código, uma vez que é uma IDEA pronta para uso sem a necessidade de muitas configurações ou instalações adicionais e possui uma integração com o sistema de versionamento Git e GitHub.
 A ferramenta de comunicação escolhida: Teams foi escolhida porque podemos compartilhar e armazenar aquivos, fazer vídeos chamadas cooperativas entre os integrantes, manter forúm individual para as discursões do grupo. Monstrando uma opção bastante útil no aspecto de uma comunicação mais completa e complexa. 
 Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma, apresentadas com seu propósito na tabela que se segue.
