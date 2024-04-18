@@ -1,4 +1,4 @@
-# ZT HEALTH.
+# ZT HEALTH
 Saúde sem Toxicidade
 
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
