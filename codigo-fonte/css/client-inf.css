@@ -32,11 +32,12 @@
 .logo {
     min-width: 200px;
     height: 50px;
+    padding-left: 8rem;
 }
 
 .icon-user {
     display: none;
-    padding-right: 5rem;
+    padding-right: 8rem;
 }
 
 .icon-menu {
