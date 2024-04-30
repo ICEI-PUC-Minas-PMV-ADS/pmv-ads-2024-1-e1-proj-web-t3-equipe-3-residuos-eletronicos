@@ -1,0 +1,47 @@
+.container-sub-title {
+    position: relative;
+    height: 3rem;
+    background-color: #1B87FA;
+    width: 100%;
+}
+.sub-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #ffffff;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    width: 100%;
+    text-align: center;
+}
+
+.container-seach {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.seach-image {
+    width: 4rem;
+    height: 2rem;
+}
+
+.input-search {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 0.2rem solid #0D99FF;
+}
+
+button {
+    all: unset;
+    /*position: absolute;*/
+    /*background: none;*/
+    /*border: none;*/
+}
+
+@media (min-width: 700px) {
+    .container-seach {
+        padding-right: 6rem;
+    }
+}
