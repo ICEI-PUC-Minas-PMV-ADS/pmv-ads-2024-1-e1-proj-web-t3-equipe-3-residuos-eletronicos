@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto Light', sans-serif;
+    max-width: 100%;
 }
 
 .container-sub-title {
@@ -15,6 +16,7 @@ body {
     /*transform: translate(0, -50%);*/
     color: #ffffff;
     font-weight: bold;
+    font-size: 1rem;
     text-transform: uppercase;
     margin: 0 10%;
     padding: 3rem 0;
@@ -36,28 +38,41 @@ body {
     width: 10rem;
     height: 2rem;
     border-radius: 10%;
-    border: 0.2rem solid #0D99FF;
+    border: 0.2rem solid #1B87FA;
 }
 
 button {
     all: unset;
+    font-weight: bold;
 }
 .container-client {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: self-start;
+    justify-content: left;
     margin: 0 10%;
     padding: 3rem 0;
 }
 
+.principal-client-inf {
+    background-color: #FAA91C;
+    color: #ffffff;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: 5%;
+    padding: 5px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
 .client-name {
-    font-weight: bold;
+    margin-bottom: .6rem;
 }
 .test-results {
     background-color: #1B87FA;
     color: #ffffff;
     border-radius: 10%;
     padding: 10px;
+    margin: 0 5% 0;
 }
 /*
 @media (min-width: 700px) {
