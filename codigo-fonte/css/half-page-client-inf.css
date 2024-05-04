@@ -1,0 +1,17 @@
+.summarized-screening {
+    display: flex;
+    height: 8rem;
+    color: #1D597D;
+    background-color: #B3B3B3;
+    margin: 0 10% 1%;
+    border: solid .3rem #1B87FA;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.summarized-screening .question {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 1% 0 10%;
+}
+
