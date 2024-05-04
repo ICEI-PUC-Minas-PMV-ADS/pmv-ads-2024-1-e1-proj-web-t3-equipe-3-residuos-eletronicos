@@ -91,7 +91,7 @@
             </div>
         </div>
         <div class="button-back-and-save">
-            <button type="submit" class="back">voltar</button>
+            <button type="submit" class="back" onclick = "redirectToAnotherPage()" >voltar</button>
             <button type="submit" class="save">salvar</button>
         </div>
     </main>
@@ -105,5 +105,10 @@
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 <script src="/codigo-fonte/js/category-client-inf.js"></script>
 <script src="/codigo-fonte/js/template.js"></script>
+<script>
+    function redirectToAnotherPage() {
+        window.location.href = "clients-inf.html";
+    }
+</script>
 </body>
 </html>

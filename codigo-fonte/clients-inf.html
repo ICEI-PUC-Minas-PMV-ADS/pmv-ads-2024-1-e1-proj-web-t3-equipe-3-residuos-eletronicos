@@ -89,7 +89,7 @@
                     </ul>
                 </div>
             </form>
-            <div class="summarized-screening">
+            <div class="summarized-screening" onclick="redirectToAnotherPage()">
                 <p class="question">pergunta?</p>
                 <p>resposta</p>
             </div>
@@ -141,14 +141,11 @@
                     </ul>
                 </div>
             </form>
-            <div class="summarized-screening">
+            <div class="summarized-screening" onclick="redirectToAnotherPage()">
                 <p class="question">pergunta?</p>
                 <p>resposta</p>
             </div>
         </div>
-
-
-
     </main>
     <footer class="background-footer">
         <p class="copy">&copy;2024 filhos da puc</p>
@@ -160,5 +157,10 @@
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 <script src="/codigo-fonte/js/category-client-inf.js"></script>
 <script src="/codigo-fonte/js/template.js"></script>
+<script>
+    function redirectToAnotherPage() {
+        window.location.href = "client-inf.html";
+    }
+</script>
 </body>
 </html>
