@@ -91,10 +91,10 @@
                 <p>resposta</p>
             </div>
             <div class="health-treatment">
-                <label>tratamento:</label>
-                <input type="text">
-                <label>medicação:</label>
-                <input type="text">
+                <label for="treatment">tratamento:</label>
+                <textarea name="msg" id="treatment" cols="40" rows="1" oninput="autoResize(this)"></textarea>
+                <label for="medication">medicação:</label>
+                <textarea name="msg" id="medication" cols="40" rows="1" oninput="autoResize(this)"></textarea>
             </div>
         </div>
         <div class="button-back-and-save">
@@ -116,6 +116,10 @@
 <script>
     function redirectToAnotherPage() {
         window.location.href = "clients-inf.html";
+    }
+    function autoResize(elem) {
+        elem.style.height = 'auto';
+        elem.style.height = (elem.scrollHeight) + 'px';
     }
 </script>
 </body>
