@@ -17,14 +17,15 @@
 
 .button-back-and-save {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     margin: 0 10% 1%;
 }
 
-.button-back-and-save .back, .save {
+.button-back-and-save .back, .save, .edit {
     background-color: #1B87FA;
     color: #ffffff;
     border-radius: 10%;
     padding: 10px;
-    /*margin: 0 5% 0;*/
+    margin: 0 0 0 2%;
+    cursor: pointer;
 }
