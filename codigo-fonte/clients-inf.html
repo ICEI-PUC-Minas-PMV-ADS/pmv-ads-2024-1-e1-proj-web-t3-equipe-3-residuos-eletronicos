@@ -89,7 +89,7 @@
                     </ul>
                 </div>
             </form>
-            <div class="summarized-screening" onclick="redirectToAnotherPage()">
+            <div class="summarized-screening" onclick="redirectToAnotherPage('client-inf.html')">
                 <p class="question">pergunta?</p>
                 <p>resposta</p>
             </div>
@@ -141,13 +141,13 @@
                     </ul>
                 </div>
             </form>
-            <div class="summarized-screening" onclick="redirectToAnotherPage()">
+            <div class="summarized-screening" onclick="redirectToAnotherPage('client-inf.html')">
                 <p class="question">pergunta?</p>
                 <p>resposta</p>
             </div>
         </div>
         <div class="buttons">
-            <button class="button-back">voltar</button>
+            <button class="button-back" onclick="redirectToAnotherPage('https://www.andrefelizardo.com.br/blog/wp-content/uploads/2015/11/em_construcao1.jpg')" >voltar</button>
             <button class="button-insert">Inserir</button>
             <button class="button-save">salvar</button>
         </div>
@@ -163,9 +163,10 @@
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 <script src="/codigo-fonte/js/category-client-inf.js"></script>
 <script src="/codigo-fonte/js/template.js"></script>
+<script src="/codigo-fonte/js/clients.js"></script>
 <script>
-    function redirectToAnotherPage() {
-        window.location.href = "client-inf.html";
+    function redirectToAnotherPage(content) {
+        window.location.href = `${content}`;
     }
 </script>
 </body>

@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="button-back-and-save">
-            <button type="submit" class="back" onclick = "redirectToAnotherPage()" >voltar</button>
+            <button type="submit" class="back" onclick = "redirectToAnotherPage('client-inf.html')" >voltar</button>
             <button type="submit" class="edit">editar</button>
             <button type="submit" class="save">salvar</button>
         </div>
@@ -114,8 +114,8 @@
 <script src="/codigo-fonte/js/category-client-inf.js"></script>
 <script src="/codigo-fonte/js/template.js"></script>
 <script>
-    function redirectToAnotherPage() {
-        window.location.href = "clients-inf.html";
+    function redirectToAnotherPage(content) {
+        window.location.href = `${content}`;
     }
     function autoResize(elem) {
         elem.style.height = 'auto';
