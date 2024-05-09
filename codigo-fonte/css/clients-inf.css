@@ -79,7 +79,7 @@ button {
     margin: 0 10% 1%;
 }
 
-.button-back,.button-insert, .button-save {
+.button-back,.button-insert, .button-save, .button-delete {
     background-color: #1B87FA;
     color: #ffffff;
     border-radius: 10%;
