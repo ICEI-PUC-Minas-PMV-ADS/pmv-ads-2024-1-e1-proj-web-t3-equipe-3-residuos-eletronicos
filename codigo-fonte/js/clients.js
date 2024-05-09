@@ -37,16 +37,19 @@ const tempClient = {
     treatment: "dolor sit amet, consectetur adipiscing elit"
 }
 
+const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? [];
+const setLocalStorage = (arrClient) => localStorage.setItem('db_client', JSON.stringify(arrClient));
+
 //C rud - CREATE
 const createClient = (client) => {
     /* Fazer a leitura das informações dos clientes que já estão no localStorage,
        do contrário, add um novo cliente resultaria em apagar o anterior. */
     /* Converter novamente a objeto JSON, pois, com o stringify, as informações foram convertidas em string. */
-    let arrClient = JSON.parse(localStorage.getItem('db_client')) ?? [];
+    let arrClient = getLocalStorage();
     arrClient.push(client);
     /* Enviar os dados para o LocalStorage. Somente é possível enviar string ao localStorage, portanto,
     é necessário transformar o objeto recebido no parâmetro 'client' em uma string. */
-    localStorage.setItem('db_client', JSON.stringify(arrClient));
+    setLocalStorage(arrClient);
 
     //Exibir dados na página
     // let dbClientElement = document.querySelector('.question');
@@ -58,6 +61,10 @@ const createClient = (client) => {
 //c R ud - READ
 const readClient = () => JSON.parse(localStorage.getItem('db_client') ?? []);
 
+// cr U d - UPDATE
+const updaterClient = (i, client) => {
+    const dbClient = localStorage.setItem('db_client', JSON.stringify(arrClient));
+}
 
 // localStorage.setItem('db_client', JSON.stringify(db_client_start) ?? []);
 //
