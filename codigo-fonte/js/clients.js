@@ -69,7 +69,11 @@ const updaterClient = (index, client) => {
 }
 
 //cru D - delete
-
+const deleteClient = (index) => {
+    const dbClient = getLocalStorage();
+    dbClient.splice(index, 1);
+    setLocalStorage(dbClient);
+}
 
 // localStorage.setItem('db_client', JSON.stringify(db_client_start) ?? []);
 //
