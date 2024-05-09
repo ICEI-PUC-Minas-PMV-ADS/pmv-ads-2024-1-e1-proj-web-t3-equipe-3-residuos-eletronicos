@@ -30,8 +30,8 @@ var db_client_start = {
 //CRUD - create read update delete
 //Insert Client
 const tempClient = {
-    name: "Bruno",
-    numeroSUS: "0789554557774",
+    name: "Doris",
+    numeroSUS: "0789554557877",
     answers: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     medicine: " Lorem Ipsum",
     treatment: "dolor sit amet, consectetur adipiscing elit"
@@ -62,9 +62,14 @@ const createClient = (client) => {
 const readClient = () => JSON.parse(localStorage.getItem('db_client') ?? []);
 
 // cr U d - UPDATE
-const updaterClient = (i, client) => {
-    const dbClient = localStorage.setItem('db_client', JSON.stringify(arrClient));
+const updaterClient = (index, client) => {
+    const dbClient = getLocalStorage();
+    dbClient[index] = client;
+    setLocalStorage(dbClient);
 }
+
+//cru D - delete
+
 
 // localStorage.setItem('db_client', JSON.stringify(db_client_start) ?? []);
 //
