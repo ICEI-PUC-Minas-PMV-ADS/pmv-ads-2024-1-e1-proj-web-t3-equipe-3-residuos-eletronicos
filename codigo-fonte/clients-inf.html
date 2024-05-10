@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/codigo-fonte/css/clients-inf.css">
     <link rel="stylesheet" href="/codigo-fonte/css/category-client-inf.css">
     <link rel="stylesheet" href="/codigo-fonte/css/half-page-client-inf.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/modal-create.css">
 </head>
 <body>
 <div class="wrapper">
@@ -89,13 +90,32 @@
                     </ul>
                 </div>
             </div>
-            <div class="summarized-screening" onclick="redirectToAnotherPage('client-inf.html')">
+            <div class="summarized-screening">
                 <div class="client-data">
-                    <p class="name">Nome:<span id="name">ffff</span></p>
-                    <p class="numberSUS">NúmeroSUS:<span id="numberSUS">ffff</span></p>
-                    <p class="answer">Resposta livre:<span id="answer">ffff</span></p>
-                    <p class="medicine">Medicamento: <span id="medicine">ffff</span></p>
-                    <p class="treatment">Tratamento:<span id="treatment">ffff</span></p>
+                    <p class="name">Nome:<span class="name">ffff</span></p>
+                    <p class="numberSUS">NúmeroSUS:<span class="numberSUS">ffff</span></p>
+                    <p class="answer">Resposta livre:<span class="answer">ffff</span></p>
+                    <p class="medicine">Medicamento: <span class="medicine">ffff</span></p>
+                    <p class="treatment">Tratamento:<span class="treatment">ffff</span></p>
+                </div>
+                <div id="modal">
+                    <div id="modal-header">
+                        <h2>Dados do paciente</h2>
+                        <button id="button-close-modal">x</button>
+                    </div>
+                    <div id="modal-body">
+                        <label for="name" class="name">Nome:</label>
+                            <input id="name" class="input-modal"  type="text">
+                        <label for="numberSUS">NúmeroSUS:</label>
+                            <input id="numberSUS" class="input-modal" type="text">
+                        <label for="answer">Resposta livre:</label>
+                            <input id="answer" class="input-modal" type="text">
+                        <label for="medicine">Medicamento:</label>
+                            <input id="medicine" class="input-modal" type="text">
+                        <label for="treatment">Tratamento:</label>
+                            <input id="treatment" class="input-modal" type="text">
+                        <button id="save">Salvar</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,7 +123,8 @@
             <button class="button-back" onclick="redirectToAnotherPage('https://www.andrefelizardo.com.br/blog/wp-content/uploads/2015/11/em_construcao1.jpg')" >voltar</button>
             <button id="update" class="button-insert">Inserir</button>
             <button id="delete" class="button-delete" >deletar</button>
-            <button id="save" class="button-save">salvar</button>
+            <button id="save-open-modal" class="button-save">salvar</button>
+            <div id="fade"></div>
         </div>
 
     </main>
