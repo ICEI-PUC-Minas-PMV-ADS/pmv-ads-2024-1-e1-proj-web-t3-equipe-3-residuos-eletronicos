@@ -98,7 +98,7 @@
                     <p class="medicine">Medicamento: <span class="medicine">ffff</span></p>
                     <p class="treatment">Tratamento:<span class="treatment">ffff</span></p>
                 </div>
-                <div id="modal">
+                <div id="modal" class="hide">
                     <div id="modal-header">
                         <h2>Dados do paciente</h2>
                         <button id="button-close-modal">x</button>
@@ -124,7 +124,7 @@
             <button id="update" class="button-insert">Inserir</button>
             <button id="delete" class="button-delete" >deletar</button>
             <button id="save-open-modal" class="button-save">salvar</button>
-            <div id="fade"></div>
+            <div id="fade" class="hide"></div>
         </div>
 
     </main>
@@ -139,6 +139,7 @@
 <script src="/codigo-fonte/js/category-client-inf.js"></script>
 <script src="/codigo-fonte/js/template.js"></script>
 <script src="/codigo-fonte/js/clients.js"></script>
+<script src="/codigo-fonte/js/modal-clients-inf.js"></script>
 <script>
     function redirectToAnotherPage(content) {
         window.location.href = `${content}`;
