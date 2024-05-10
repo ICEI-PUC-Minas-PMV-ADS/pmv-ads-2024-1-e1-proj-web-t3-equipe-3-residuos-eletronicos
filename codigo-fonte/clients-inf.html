@@ -42,8 +42,8 @@
             <input type="search" class="input-search" name="q"/>
             <button type="submit"><img class="seach-image" src="/codigo-fonte/assets/image/search-azul.svg" alt=""></button>
         </form>
-        <div class="client-inf">
-            <form class="container-client" action="">
+        <div id="client-inf" class="client-inf">
+            <div class="container-client">
                 <div class="principal-client-inf">
                     <h3 class="client-name">Bruno Dario Costa</h3>
                     <h3 class="client-SUS">nº cartão SUS: 147898875645</h3>
@@ -88,17 +88,22 @@
                         </li>
                     </ul>
                 </div>
-            </form>
+            </div>
             <div class="summarized-screening" onclick="redirectToAnotherPage('client-inf.html')">
-                <p class="question">pergunta?</p>
-                <p>resposta</p>
+                <div class="client-data">
+                    <p class="name">Nome:<span id="name">ffff</span></p>
+                    <p class="numberSUS">NúmeroSUS:<span id="numberSUS">ffff</span></p>
+                    <p class="answer">Resposta livre:<span id="answer">ffff</span></p>
+                    <p class="medicine">Medicamento: <span id="medicine">ffff</span></p>
+                    <p class="treatment">Tratamento:<span id="treatment">ffff</span></p>
+                </div>
             </div>
         </div>
         <div class="buttons">
             <button class="button-back" onclick="redirectToAnotherPage('https://www.andrefelizardo.com.br/blog/wp-content/uploads/2015/11/em_construcao1.jpg')" >voltar</button>
-            <button class="button-insert">Inserir</button>
-            <button class="button-delete" >deletar</button>
-            <button class="button-save">salvar</button>
+            <button id="update" class="button-insert">Inserir</button>
+            <button id="delete" class="button-delete" >deletar</button>
+            <button id="save" class="button-save">salvar</button>
         </div>
 
     </main>
