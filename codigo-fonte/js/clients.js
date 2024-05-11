@@ -3,8 +3,8 @@ var db_client_start = {
         {
             "id": 1,
             "name": "Leanne Graham",
-            "numeroSUS": "0245789450155",
-            "answers": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+            "numberSUS": "0245789450155",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
                 "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi " +
                 "ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
@@ -15,8 +15,8 @@ var db_client_start = {
         {
             "id": 1,
             "name": "Clementine Bauch",
-            "numeroSUS": "0245789450155",
-            "answers": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+            "numberSUS": "0245789450155",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
                 "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi " +
                 "ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
@@ -28,64 +28,68 @@ var db_client_start = {
 }
 
 //CRUD - create read update delete
+
 //Insert Client
 const tempClient = {
     name: "Doris",
-    numeroSUS: "0789554557877",
-    answers: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    numberSUS: "0789554557877",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     medicine: " Lorem Ipsum",
     treatment: "dolor sit amet, consectetur adipiscing elit"
 }
 
-const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? [];
+const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? {clients:[]};
 const setLocalStorage = (arrClient) => localStorage.setItem('db_client', JSON.stringify(arrClient));
 
 //C rud - CREATE
+
 const createClient = (client) => {
     /* Fazer a leitura das informações dos clientes que já estão no localStorage,
        do contrário, add um novo cliente resultaria em apagar o anterior. */
     /* Converter novamente a objeto JSON, pois, com o stringify, as informações foram convertidas em string. */
-    let arrClient = getLocalStorage();
-    arrClient.push(client);
+    const arrClient = getLocalStorage();
+    arrClient.clients.push(client);
     /* Enviar os dados para o LocalStorage. Somente é possível enviar string ao localStorage, portanto,
     é necessário transformar o objeto recebido no parâmetro 'client' em uma string. */
     setLocalStorage(arrClient);
-
-    //Exibir dados na página
-    // let dbClientElement = document.querySelector('.question');
-    // console.log(dbClientElement);
-    // dbClientElement.textContent = JSON.stringify(arrClient[0], null, 2);
-    // dbClientElement.appendChild(client);
 }
 
 //c R ud - READ
-const readClient = () => JSON.parse(localStorage.getItem('db_client') ?? []);
+const readClient = () => getLocalStorage();
 
 // cr U d - UPDATE
-const updaterClient = (index, client) => {
+const updateClient = (index, client) => {
     const dbClient = getLocalStorage();
-    dbClient[index] = client;
+    dbClient.clients[index] = client;
     setLocalStorage(dbClient);
 }
 
 //cru D - delete
 const deleteClient = (index) => {
     const dbClient = getLocalStorage();
-    dbClient.splice(index, 1);
+    dbClient.clients.splice(index, 1);
     setLocalStorage(dbClient);
 }
 
-// localStorage.setItem('db_client', JSON.stringify(db_client_start) ?? []);
-//
-// let dbClients = JSON.parse(localStorage.getItem('db_client'));
-// console.log(dbClients)
-//
-// for (let i = 0; i < dbClients.clients.length; i++) {
-//     let summarizedScreening = document.querySelector('.answers');
-//     summarizedScreening.innerHTML = dbClients.clients[i].numeroSUS;
-//     console.log(dbClients.clients[i].numeroSUS);
-// }
+//Funções padrões
 
+//Interação com o layout
+const saveClient = () => {
+    let newClient = {
+        "name": document.querySelector('#name').value,
+        "numberSUS": document.querySelector('#numberSUS').value,
+        "answer":document.querySelector('#answer').value,
+        "medicine": document.querySelector('#medicine').value,
+        "treatment": document.querySelector('#treatment').value
+    }
+    createClient(newClient);
+    console.log("salvo com sucesso: ", newClient);
+    console.log(localStorage.getItem('db_client'));
+}
+
+//Eventos
+document.querySelector('#save')
+    .addEventListener('click', saveClient);
 
 
 
