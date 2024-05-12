@@ -28,26 +28,22 @@ var db_client_start = {
 }
 
 //CRUD - create read update delete
-
-//Insert Client
-const tempClient = {
-    name: "Doris",
-    numberSUS: "0789554557877",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    medicine: " Lorem Ipsum",
-    treatment: "dolor sit amet, consectetur adipiscing elit"
-}
-
 const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? {clients:[]};
 const setLocalStorage = (arrClient) => localStorage.setItem('db_client', JSON.stringify(arrClient));
 
 //C rud - CREATE
-
 const createClient = (client) => {
     /* Fazer a leitura das informações dos clientes que já estão no localStorage,
        do contrário, add um novo cliente resultaria em apagar o anterior. */
     /* Converter novamente a objeto JSON, pois, com o stringify, as informações foram convertidas em string. */
     const arrClient = getLocalStorage();
+    if (!client.id) {
+        if (arrClient.clients.length > 0) {
+            client.id = arrClient.clients[arrClient.clients.length - 1].id + 1;
+        } else {
+            client.id = 1;
+        }
+    }
     arrClient.clients.push(client);
     /* Enviar os dados para o LocalStorage. Somente é possível enviar string ao localStorage, portanto,
     é necessário transformar o objeto recebido no parâmetro 'client' em uma string. */
@@ -83,15 +79,49 @@ const saveClient = () => {
         "treatment": document.querySelector('#treatment').value
     }
     createClient(newClient);
-    console.log("salvo com sucesso: ", newClient);
-    console.log(localStorage.getItem('db_client'));
+    updateClients();
+    console.log("Cliente salvo com sucesso: ", newClient);
 }
+
+const createClientInf = (client) => {
+    const mainClientInf = document.createElement('div');
+    mainClientInf.classList.add('container-client');
+    mainClientInf.innerHTML = `
+        <div class="principal-client-inf">
+            <h3>${client.name}</h3>
+            <h3>${client.numberSUS}</h3>
+        </div>        
+        <button type="submit" class="test-results">Exames</button>
+    `
+    document.querySelector('#client-inf').appendChild(mainClientInf);
+
+    const newBox = document.createElement('div');
+    newBox.classList.add('summarized-screening');
+    newBox.innerHTML = `
+        <dl class="client-data">
+            <div><dt class="side-by-side">Nome:</dt>
+            <dd class="side-by-side">${client.name}</dd></div>
+            <div><dt class="side-by-side">Número SUS:</dt>
+            <dd class="side-by-side">${client.numberSUS}</dd></div>
+            <div><dt class="side-by-side">Resposta: </dt>
+            <dd class="side-by-side">${client.answer}</dd></div>
+            <div><dt class="side-by-side">Medicamento: </dt>
+            <dd class="side-by-side">${client.medicine}</dd></div>
+            <div><dt class="side-by-side">Tratamento: </dt>
+            <dd class="side-by-side">${client.treatment}</dd></div>    
+        </dl>    
+    `
+    document.querySelector('#client-inf').appendChild(newBox);
+}
+
+const updateClients = () => {
+    const dbClient = readClient(); //lê os dados
+    dbClient.clients.forEach((createClientInf)); //cria uma cx de informações do cliente
+}
+updateClients();
 
 //Eventos
 document.querySelector('#save')
     .addEventListener('click', saveClient);
-
-
-
 
 
