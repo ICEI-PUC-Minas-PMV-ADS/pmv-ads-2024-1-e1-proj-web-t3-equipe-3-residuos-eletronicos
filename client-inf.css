@@ -1,0 +1,126 @@
+
+:root {
+    --bk-head-menu-bg-color: #81bbfa;
+}
+
+.header-container {
+}
+
+.background-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+    height: 4rem;
+    background: var(--bk-head-menu-bg-color);
+}
+
+.logo {
+    background-image: url('./assets/image/logo-background-blue.svg');
+    width: 200px;
+    height: 50px;
+    background-size: cover;
+    margin-right: auto;
+}
+
+.icone-user {
+    margin-right: 1%;
+}
+
+.my-count-menu {
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav-bar {
+    display: none;
+    position: absolute;
+    right: 4px;
+    top:54px;
+    background-color: var(--bk-head-menu-bg-color);
+    border: 1px solid #1B87FA;
+    border-radius: 15px;
+}
+
+.my-count-menu:focus + .nav-bar,
+.my-count-menu:hover + .nav-bar {
+    display: block;
+}
+
+.nav-bar-item {
+    display: block;
+    padding: 20px 10px;
+    color: #ffffff;
+}
+
+.background-footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--bk-head-menu-bg-color);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    padding: 20px;
+}
+
+
+.space{
+    background-color: white;
+    width:100rem;
+    heigth:3rem;
+    text-align: center;
+}
+
+.topics{
+    display: inline-block;
+    justify-content: space-between;
+    flex:1;
+    flex-flow: row wrap;
+    align-items:stretch;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+
+.item{
+    background-color: #b3b3b3;
+    border-radius:50%;
+    width: 120px;
+    heigth:120px;
+
+
+}
+
+.banner{
+    background-color: #b3b3b3; 
+
+    height: 130px;
+
+}
+
+.banner-img{
+    width:100%;
+    height:130px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .title{
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid #bbb;
+    padding: 5px;
+    h2{
+        margin:0
+    }
+  }
