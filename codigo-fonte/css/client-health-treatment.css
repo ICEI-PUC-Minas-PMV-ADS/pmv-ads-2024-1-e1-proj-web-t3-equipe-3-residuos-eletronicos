@@ -12,7 +12,8 @@
     font-weight: bold;
     margin: 0 1% 0 10%;
     padding-bottom: 20px;
-    cursor: text;text-transform: uppercase;
+    cursor: text;
+    text-transform: uppercase;
 }
 
 .health-treatment textarea {

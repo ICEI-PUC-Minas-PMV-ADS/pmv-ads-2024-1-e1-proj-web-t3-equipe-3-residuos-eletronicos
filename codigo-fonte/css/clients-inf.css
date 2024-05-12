@@ -60,6 +60,7 @@ button {
     border-radius: 5%;
     text-align: left;
     text-wrap: nowrap;
+    cursor: pointer;
 }
 
 .principal-client-inf h3 {

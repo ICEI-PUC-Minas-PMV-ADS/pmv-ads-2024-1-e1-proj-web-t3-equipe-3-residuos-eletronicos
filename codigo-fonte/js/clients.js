@@ -87,7 +87,7 @@ const createClientInf = (client) => {
     const mainClientInf = document.createElement('div');
     mainClientInf.classList.add('container-client');
     mainClientInf.innerHTML = `
-        <div class="principal-client-inf">
+        <div class="principal-client-inf" onclick="redirectToAnotherPage('../codigo-fonte/client-inf.html')">
             <h3>${client.name}</h3>
             <h3>${client.numberSUS}</h3>
         </div>        
