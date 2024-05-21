@@ -100,7 +100,7 @@ const createClientInf = (client) => {
     newBox.innerHTML = `
         <dl class="client-data">
             <div><dt class="side-by-side">Nome:</dt>
-            <dd class="side-by-side">${client.name}</dd></div>
+            <dd class="side-by-side" id="client-data">${client.name}</dd></div>
             <div><dt class="side-by-side">Número SUS:</dt>
             <dd class="side-by-side">${client.numberSUS}</dd></div>
             <div><dt class="side-by-side">Resposta: </dt>
