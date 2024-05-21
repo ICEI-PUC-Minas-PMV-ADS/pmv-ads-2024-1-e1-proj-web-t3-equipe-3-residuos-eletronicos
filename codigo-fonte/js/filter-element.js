@@ -17,7 +17,9 @@ function filterClientDatas() {
         }
 
     } else {
-        
+        for (let clientData of clientDatas) {
+            clientData.style.display = 'block';
+        }
     }
 }
 console.log('test');
