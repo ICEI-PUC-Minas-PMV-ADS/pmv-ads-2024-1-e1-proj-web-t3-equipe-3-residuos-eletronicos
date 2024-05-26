@@ -16,7 +16,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Todos box amarelos com nome e cartão SUS do respectivo paciente devem encaminhar os usuários para a página de informações mais detalhadas do mesmo. |
 | Responsável pela elaborar do caso de Teste | Nayana |
 
-
+|Caso de Teste    | CT- 02 -  Verificar se o profissional visualiza a página da lista dos pacientes |
+|:---|:---|
+| Requisitos Associados | RF-03: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde e classificar o nível de urgência no atendimento ao paciente. |
+| Objetivo do Teste | Verificar a página da lista de informações dos pacientes está visível com um box cinza de resumo das informações de cada paciente cadastrado no sistema. |
+| Passos | 1. Logado como profissional de saúde, na opção 'informações paciente'. 2. Visulizar a página com as informações resumidas. |
+| Critérios de êxito | Todos box cinzas devem conter informações simplificadas de cada paciente da lista. |
+| Responsável pela elaborar do caso de Teste | Nayana |
 
 
 
