@@ -1,16 +1,25 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os requisitos para realização dos testes de software são:
+<ul><li>Site publicado na internet;</li>
+<li>Navegador da internet: Chrome ou Firefox.</li>
+</ul>
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT- 01 -  Verificar o funcionamento dos links da página informações do(s) paciente(s) |
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-03: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde e classificar o nível de urgência no atendimento ao paciente. |
+| Objetivo do Teste | Verificar se os links da página de informações do(s) paciente(s) estão encaminhando para as respectivas páginas corretamente. |
+| Passos | 1. Logado como profissional de saúde, na opção 'informações paciente'. 2. Clicar no box de cor amarela com nome e cartão SUS do paciente que deseja obter informações mais detalhadas. |
+| Critérios de êxito | Todos box amarelos com nome e cartão SUS do respectivo paciente devem encaminhar os usuários para a página de informações mais detalhadas do mesmo. |
+| Responsável pela elaborar do caso de Teste | Nayana |
+
+
+
+
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
