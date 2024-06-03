@@ -96,20 +96,43 @@ const createClientInf = (client) => {
     document.querySelector('#client-inf').appendChild(mainClientInf);
 
     const newBox = document.createElement('div');
-    newBox.classList.add('summarized-screening');
+    // newBox.classList.add();
     newBox.innerHTML = `
-        <dl class="client-data">
-            <div><dt class="side-by-side">Nome:</dt>
-            <dd class="side-by-side" id="client-data">${client.name}</dd></div>
-            <div><dt class="side-by-side">Número SUS:</dt>
-            <dd class="side-by-side">${client.numberSUS}</dd></div>
-            <div><dt class="side-by-side">Resposta: </dt>
-            <dd class="side-by-side">${client.answer}</dd></div>
-            <div><dt class="side-by-side">Medicamento: </dt>
-            <dd class="side-by-side">${client.medicine}</dd></div>
-            <div><dt class="side-by-side">Tratamento: </dt>
-            <dd class="side-by-side">${client.treatment}</dd></div>    
-        </dl>    
+    
+    <div class="summarized-screening">
+        <form class="client-data">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="side-by-side">Nome:</td>
+                        <td class="side-by-side" id="client-data">${client.name}</td>
+                    </tr>
+                    <tr>
+                        <td class="side-by-side">Número SUS:</td>
+                        <td class="side-by-side">${client.numberSUS}</td>
+                    </tr>
+                    <tr>
+                        <td class="side-by-side">Resposta:</td>
+                        <td class="side-by-side">${client.answer}</td>
+                    </tr>
+                    <tr>
+                        <td class="side-by-side">Medicamento:</td>
+                        <td class="side-by-side">${client.medicine}</td>
+                    </tr>
+                    <tr>
+                        <td class="side-by-side">Tratamento:</td>
+                        <td class="side-by-side">${client.treatment}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="update" class="button-insert">Editar</button>
+                            <button id="delete" class="button-delete">Deletar</button> 
+                        </td>                                  
+                    </tr>
+                </tbody>
+            </table>
+        </form>  
+    </div>              
     `
     document.querySelector('#client-inf').appendChild(newBox);
 }

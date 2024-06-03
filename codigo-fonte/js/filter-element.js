@@ -6,7 +6,7 @@ filterElement.addEventListener('input', filterClientDatas);
 function filterClientDatas() {
     if(filterElement.value !== '') {
         for(let clientData of clientDatas) {
-            let name = clientData.querySelector('dl #client-data');
+            let name = clientData.querySelector('#client-data');
             name = name.textContent.toLowerCase();
             let filterText = filterElement.value.toLowerCase();
             if(!name.includes(filterText)) {
