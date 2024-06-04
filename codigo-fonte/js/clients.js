@@ -84,28 +84,29 @@ const saveClient = () => {
 }
 
 const createClientInf = (client) => {
-    const mainClientInf = document.createElement('div');
-    mainClientInf.classList.add('container-client');
-    mainClientInf.innerHTML = `
-        <div class="principal-client-inf" onclick="redirectToAnotherPage('../codigo-fonte/client-inf.html')">
-            <h3>${client.name}</h3>
-            <h3>${client.numberSUS}</h3>
-        </div>        
-        <button type="submit" class="test-results">Exames</button>
-    `
-    document.querySelector('#client-inf').appendChild(mainClientInf);
+    // const mainClientInf = document.createElement('div');
+    // mainClientInf.classList.add('container-client');
+    // mainClientInf.innerHTML = `
+    //
+    // `
+    // document.querySelector('#client-inf').appendChild(mainClientInf);
 
     const newBox = document.createElement('div');
     // newBox.classList.add();
     newBox.innerHTML = `
-    
-    <div class="summarized-screening">
-        <form class="client-data">
-            <table>
+        <form id="client-data">
+            <div class="container-client">
+                <div class="principal-client-inf" onclick="redirectToAnotherPage('../codigo-fonte/client-inf.html')">
+                    <h3>${client.name}</h3>
+                    <h3>${client.numberSUS}</h3>
+                </div>        
+                <button type="submit" class="test-results">Exames</button>
+            </div>        
+            <table class="summarized-screening">
                 <tbody>
                     <tr>
                         <td class="side-by-side">Nome:</td>
-                        <td class="side-by-side" id="client-data">${client.name}</td>
+                        <td class="side-by-side" id="client-name">${client.name}</td>
                     </tr>
                     <tr>
                         <td class="side-by-side">Número SUS:</td>
@@ -131,8 +132,7 @@ const createClientInf = (client) => {
                     </tr>
                 </tbody>
             </table>
-        </form>  
-    </div>              
+        </form>         
     `
     document.querySelector('#client-inf').appendChild(newBox);
 }
