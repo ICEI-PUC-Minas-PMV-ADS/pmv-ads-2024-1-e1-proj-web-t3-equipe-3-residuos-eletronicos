@@ -13,6 +13,10 @@
     margin-bottom: .3rem;
 }
 
+.title {
+    font-weight: bold;
+}
+
 .client-data td {
     font-weight: bold;
 }

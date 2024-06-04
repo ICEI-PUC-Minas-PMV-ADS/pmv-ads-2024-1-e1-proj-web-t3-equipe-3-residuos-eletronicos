@@ -105,23 +105,23 @@ const createClientInf = (client) => {
             <table class="summarized-screening">
                 <tbody>
                     <tr>
-                        <td class="side-by-side">Nome:</td>
+                        <td class="side-by-side title">Nome:</td>
                         <td class="side-by-side" id="client-name">${client.name}</td>
                     </tr>
                     <tr>
-                        <td class="side-by-side">Número SUS:</td>
+                        <td class="side-by-side title">Número SUS:</td>
                         <td class="side-by-side">${client.numberSUS}</td>
                     </tr>
                     <tr>
-                        <td class="side-by-side">Resposta:</td>
+                        <td class="side-by-side title">Resposta:</td>
                         <td class="side-by-side">${client.answer}</td>
                     </tr>
                     <tr>
-                        <td class="side-by-side">Medicamento:</td>
+                        <td class="side-by-side title">Medicamento:</td>
                         <td class="side-by-side">${client.medicine}</td>
                     </tr>
                     <tr>
-                        <td class="side-by-side">Tratamento:</td>
+                        <td class="side-by-side title">Tratamento:</td>
                         <td class="side-by-side">${client.treatment}</td>
                     </tr>
                     <tr>
