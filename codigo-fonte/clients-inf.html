@@ -39,10 +39,18 @@
         <div class="container-sub-title">
             <h2 class="sub-title">Informação de Pacientes</h2>
         </div>
-        <form class="container-seach" action="./search/">
-            <input type="search" class="input-search" name="q"/>
-            <button type="submit"><img class="seach-image" src="/codigo-fonte/assets/image/search-azul.svg" alt=""></button>
-        </form>
+        <div class="container-top">
+            <div class="buttons">
+                <button class="button-back" onclick="redirectToAnotherPage('https://www.andrefelizardo.com.br/blog/wp-content/uploads/2015/11/em_construcao1.jpg')" >Voltar</button>
+
+                <button id="save-open-modal" class="button-save">Cadastrar Paciente</button>
+                <div id="fade" class="hide"></div>
+            </div>
+            <form class="container-seach" action="./search/">
+                <input type="search" class="input-search" name="q"/>
+                <button type="submit"><img class="seach-image" src="/codigo-fonte/assets/image/search-azul.svg" alt=""></button>
+            </form>
+        </div>
         <div id="client-inf" class="client-inf">
                 <!-- Gerado em JS -->
                 <!--<div class="select">
@@ -105,13 +113,6 @@
                     </div>
                 </div>
         </div>
-        <div class="buttons">
-            <button class="button-back" onclick="redirectToAnotherPage('https://www.andrefelizardo.com.br/blog/wp-content/uploads/2015/11/em_construcao1.jpg')" >Voltar</button>
-
-            <button id="save-open-modal" class="button-save">Cadastrar Paciente</button>
-            <div id="fade" class="hide"></div>
-        </div>
-
     </main>
     <footer class="background-footer">
         <p class="copy">&copy;2024 filhos da puc</p>

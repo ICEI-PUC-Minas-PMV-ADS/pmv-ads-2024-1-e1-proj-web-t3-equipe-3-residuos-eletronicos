@@ -17,9 +17,13 @@
     padding: 3rem 0;
 }
 
-.container-seach {
+.container-top {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    margin: 1% 0 1%;
+}
+
+.container-seach {
     margin: 5px 10%;
 }
 
@@ -40,6 +44,7 @@ button {
     all: unset;
     font-weight: bold;
 }
+
 .container-client {
     display: flex;
     margin: 0 10%;
@@ -83,6 +88,7 @@ button {
     font-size: 1rem;
     font-weight: bold;
     margin: 0 10% 1%;
+    text-wrap: nowrap;
 }
 
 .button-back,.button-insert, .button-save, .button-delete {
