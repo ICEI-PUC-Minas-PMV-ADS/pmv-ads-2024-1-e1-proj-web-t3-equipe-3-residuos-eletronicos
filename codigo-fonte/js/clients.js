@@ -124,14 +124,10 @@ const createClientInf = (client) => {
                         <td class="side-by-side title">Tratamento:</td>
                         <td class="side-by-side">${client.treatment}</td>
                     </tr>
-                    <tr>
-                        <td>
-                            <button id="update" class="button-insert">Editar</button>
-                            <button id="delete" class="button-delete">Deletar</button> 
-                        </td>                                  
-                    </tr>
-                </tbody>
+                </tbody>                
             </table>
+            <button id="update" class="button-insert">Editar</button>
+            <button id="delete" class="button-delete">Deletar</button> 
         </form>         
     `
     document.querySelector('#client-inf').appendChild(newBox);

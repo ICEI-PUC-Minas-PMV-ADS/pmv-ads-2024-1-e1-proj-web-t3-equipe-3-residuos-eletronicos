@@ -101,6 +101,12 @@ button {
     max-height: 2rem;
 }
 
+.button-insert, .button-delete {
+    float: right;
+}
+.button-insert {
+    margin: 0 10% 0% 1%;
+}
 /*
 @media (min-width: 700px) {
     .container-seach {
