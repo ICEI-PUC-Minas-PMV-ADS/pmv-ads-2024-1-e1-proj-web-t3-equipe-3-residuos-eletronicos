@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/codigo-fonte/css/clients-inf.css">
     <link rel="stylesheet" href="/codigo-fonte/css/category-client-inf.css">
     <link rel="stylesheet" href="/codigo-fonte/css/client-inf.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/client-health-treatment.css">
 </head>
 <body>
 <div class="wrapper">
@@ -89,10 +90,17 @@
                 <p class="question">pergunta?</p>
                 <p>resposta</p>
             </div>
+            <div class="health-treatment">
+                <label for="treatment">tratamento:</label>
+                <textarea name="msg" id="treatment" cols="40" rows="1" oninput="autoResize(this)"></textarea>
+                <label for="medication">medicação:</label>
+                <textarea name="msg" id="medication" cols="40" rows="1" oninput="autoResize(this)"></textarea>
+            </div>
         </div>
         <div class="button-back-and-save">
-            <button type="submit" class="back" onclick = "redirectToAnotherPage('../codigo-fonte/clients-inf.html')" >Voltar</button>
-            <button type="submit" class="save" onclick = "redirectToAnotherPage('../codigo-fonte/client-health-treatment.html')" >Salvar</button>
+            <button type="submit" class="back" onclick = "redirectToAnotherPage('clients-inf.html')" >voltar</button>
+            <button type="submit" class="edit">editar</button>
+            <button type="submit" class="save">salvar</button>
         </div>
     </main>
     <footer class="background-footer">
@@ -108,6 +116,10 @@
 <script>
     function redirectToAnotherPage(content) {
         window.location.href = `${content}`;
+    }
+    function autoResize(elem) {
+        elem.style.height = 'auto';
+        elem.style.height = (elem.scrollHeight) + 'px';
     }
 </script>
 </body>
