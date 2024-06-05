@@ -22,4 +22,3 @@ function filterClientDatas() {
         }
     }
 }
-console.log('test');

@@ -95,6 +95,7 @@ const createClientInf = (client) => {
     // newBox.classList.add();
     newBox.innerHTML = `
         <form id="client-data">
+            <input type="hidden" id="client-id" value=${client.id}>
             <div class="container-client">
                 <div class="principal-client-inf" onclick="redirectToAnotherPage('../codigo-fonte/client-inf.html')">
                     <h3>${client.name}</h3>
