@@ -118,10 +118,22 @@ function clearForm() {
 }
 
 const updateClients = () => {
-    const dbClient = readClient(); //lê os dados
-    dbClient.clients.forEach((createClientInf)); //cria uma cx de informações do cliente
+    const dbClient = readClient(); // lê os dados
+    // Limpa a área de exibição de clientes
+    const clientContainer = document.querySelector('#client-inf');
+    clientContainer.innerHTML = '';
+
+    // Adiciona os clientes atualizados à view, verificando duplicação
+    dbClient.clients.forEach(client => {
+        if (!Array.from(clientContainer.children).some(el => el.dataset.id === client.id)) {
+            createClientInf(client);
+        }
+    });
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    updateClients();
+});
 //Eventos
 document.querySelector('#save')
     .addEventListener('click', saveClient);
