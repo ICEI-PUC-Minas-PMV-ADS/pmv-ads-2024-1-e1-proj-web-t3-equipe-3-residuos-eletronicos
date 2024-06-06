@@ -1,41 +1,22 @@
-var db_client_start = {
-    "clients": [
-        {
-            "id": 1,
-            "name": "Leanne Graham",
-            "numberSUS": "0245789450155",
-            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi " +
-                "ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
-                "in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "medicine": " Lorem Ipsum",
-            "treatment": "dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "id": 1,
-            "name": "Clementine Bauch",
-            "numberSUS": "0245789450155",
-            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
-                "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi " +
-                "ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit " +
-                "in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            "medicine": " Lorem Ipsum",
-            "treatment": "dolor sit amet, consectetur adipiscing elit."
-        },
-    ]
-}
+/*
+CLIENTS[{
+    id
+    name
+    numberSUS
+    answer
+    medicine
+    treatment
+}]
+*/
 
 //CRUD - create read update delete
 const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? {clients:[]};
 const setLocalStorage = (arrClient) => localStorage.setItem('db_client', JSON.stringify(arrClient));
 
+//FUNÇÕES LOCALSTORAGE
+
 //C rud - CREATE
 const createClient = (client) => {
-    /* Fazer a leitura das informações dos clientes que já estão no localStorage,
-       do contrário, add um novo cliente resultaria em apagar o anterior. */
-    /* Converter novamente a objeto JSON, pois, com o stringify, as informações foram convertidas em string. */
     const arrClient = getLocalStorage();
     if (!client.id) {
         if (arrClient.clients.length > 0) {
@@ -45,8 +26,6 @@ const createClient = (client) => {
         }
     }
     arrClient.clients.push(client);
-    /* Enviar os dados para o LocalStorage. Somente é possível enviar string ao localStorage, portanto,
-    é necessário transformar o objeto recebido no parâmetro 'client' em uma string. */
     setLocalStorage(arrClient);
 }
 
@@ -60,18 +39,19 @@ const updateClient = (index, client) => {
     setLocalStorage(dbClient);
 }
 
-//cru D - delete
+//cru D - DELETE
 const deleteClient = (index) => {
     const dbClient = getLocalStorage();
     dbClient.clients.splice(index, 1);
     setLocalStorage(dbClient);
 }
 
-//Funções padrões
+//FUNÇÕES PADRÃO
 
 //Interação com o layout
 const saveClient = () => {
     let newClient = {
+        "id": document.querySelector('#field-ID').value,
         "name": document.querySelector('#name').value,
         "numberSUS": document.querySelector('#numberSUS').value,
         "answer":document.querySelector('#answer').value,
@@ -79,23 +59,15 @@ const saveClient = () => {
         "treatment": document.querySelector('#treatment').value
     }
     createClient(newClient);
-    updateClients();
     console.log("Cliente salvo com sucesso: ", newClient);
+    clearForm();
+    updateClients();
 }
 
 const createClientInf = (client) => {
-    // const mainClientInf = document.createElement('div');
-    // mainClientInf.classList.add('container-client');
-    // mainClientInf.innerHTML = `
-    //
-    // `
-    // document.querySelector('#client-inf').appendChild(mainClientInf);
-
     const newBox = document.createElement('div');
-    // newBox.classList.add();
     newBox.innerHTML = `
         <form id="client-data">
-            <input type="hidden" id="client-id" value=${client.id}>
             <div class="container-client">
                 <div class="principal-client-inf" onclick="redirectToAnotherPage('../codigo-fonte/client-inf.html')">
                     <h3>${client.name}</h3>
@@ -134,11 +106,21 @@ const createClientInf = (client) => {
     document.querySelector('#client-inf').appendChild(newBox);
 }
 
+//Limpa modal
+function clearForm() {
+    const form = document.querySelector('#modal-body');
+    form.querySelector('#field-ID').value ='';
+    form.querySelector('#name').value ='';
+    form.querySelector('#numberSUS').value ='';
+    form.querySelector('#answer').value ='';
+    form.querySelector('#medicine').value ='';
+    form.querySelector('#treatment').value ='';
+}
+
 const updateClients = () => {
     const dbClient = readClient(); //lê os dados
     dbClient.clients.forEach((createClientInf)); //cria uma cx de informações do cliente
 }
-updateClients();
 
 //Eventos
 document.querySelector('#save')
