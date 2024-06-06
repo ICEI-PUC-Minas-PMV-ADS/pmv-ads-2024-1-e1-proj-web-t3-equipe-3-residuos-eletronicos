@@ -59,7 +59,7 @@ const saveClient = () => {
         "treatment": document.querySelector('#treatment').value
     }
     createClient(newClient);
-    console.log("Cliente salvo com sucesso: ", newClient);
+    alert('Paciente salvo com sucesso!');
     clearForm();
     updateClients();
 }
