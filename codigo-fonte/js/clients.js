@@ -51,17 +51,37 @@ const deleteClient = (index) => {
 //Interação com o layout
 const saveClient = () => {
     let newClient = {
-        "id": document.querySelector('#field-ID').value,
+        "id": parseInt(document.querySelector('#field-ID').value),
         "name": document.querySelector('#name').value,
         "numberSUS": document.querySelector('#numberSUS').value,
         "answer":document.querySelector('#answer').value,
         "medicine": document.querySelector('#medicine').value,
         "treatment": document.querySelector('#treatment').value
     }
-    createClient(newClient);
+    if(getLocalStorage().clients.length > 0) {
+        
+    } else {
+        createClient(newClient);
+    }
+
     alert('Paciente salvo com sucesso!');
     clearForm();
     updateClients();
+}
+
+const editClient = (id) => {
+    const dbClient = getLocalStorage();
+    const client = dbClient.clients.find(client => client.id == id);
+
+    if(client) {
+        document.querySelector('#field-ID').value = client.id;
+        document.querySelector('#name').value = client.name;
+        document.querySelector('#numberSUS').value = client.numberSUS;
+        document.querySelector('#answer').value = client.answer;
+        document.querySelector('#medicine').value = client.medicine;
+        document.querySelector('#treatment').value = client.treatment;
+        toggleModal();
+    }
 }
 
 const createClientInf = (client) => {
@@ -99,8 +119,8 @@ const createClientInf = (client) => {
                     </tr>
                 </tbody>                
             </table>
-            <button id="update" class="button-insert">Editar</button>
-            <button id="delete" class="button-delete">Deletar</button> 
+            <button id="update" class="button-insert" type="button" onclick="editClient(${client.id})">Editar</button>
+            <button id="delete" class="button-delete" type="button" onclick="deleteClient(${client.id})">Deletar</button> 
         </form>         
     `
     document.querySelector('#client-inf').appendChild(newBox);
@@ -130,10 +150,8 @@ const updateClients = () => {
         }
     });
 }
+updateClients();
 
-document.addEventListener('DOMContentLoaded', () => {
-    updateClients();
-});
 //Eventos
 document.querySelector('#save')
     .addEventListener('click', saveClient);

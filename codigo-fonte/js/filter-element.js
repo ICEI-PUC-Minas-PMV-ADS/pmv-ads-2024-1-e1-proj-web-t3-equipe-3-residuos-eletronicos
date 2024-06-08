@@ -1,9 +1,10 @@
 const filterElement = document.querySelector('.input-search');
 const containerClient = document.querySelectorAll('.container-client');
-const clientDatas = document.querySelectorAll('#client-data');
+let clientDatas;
 filterElement.addEventListener('input', filterClientDatas);
 
 function filterClientDatas() {
+    clientDatas = document.querySelectorAll('#client-data');
     if(filterElement.value !== '') {
         for(let clientData of clientDatas) {
             let name = clientData.querySelector('#client-name');
