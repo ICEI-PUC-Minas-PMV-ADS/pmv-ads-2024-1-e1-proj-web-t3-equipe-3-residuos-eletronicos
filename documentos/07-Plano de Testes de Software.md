@@ -24,13 +24,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Todos box cinzas devem conter informações simplificadas de cada paciente da lista. |
 | Responsável pela elaborar do caso de Teste | Nayana |
 
-|Caso de Teste    | CT- 03 -  ................... |
+|Caso de Teste    | CT- 03 -  Verificar se o profissional consegue cadastrar um paciente |
 |:---|:---|
-| Requisitos Associados | ................................. |
-| Objetivo do Teste | .................................... |
-| Passos | ........................................ |
-| Critérios de êxito | ...................................... |
-| Responsável pela elaborar do caso de Teste | .......................... |
+| Requisitos Associados | RF-03: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário. |
+| Objetivo do Teste | Verificar se é possível cadastrar e salvar um novo paciente dentro do sistema. E visualizar a nova informação a lista atualizada na página. |
+| Passos | 1. Logado como profissional de saúde, clicar no botão 'Cadastrar Paciente'. 2. Visualizar um modal para inserir as informações do novo paciente. 3. Clicar no botão 'salvar'. 4. Visualizar a mensagem de sucesso 'Paciente cadastrado com sucesso!'. 5. Clicar em 'ok'. 6. Visualizar na página as novas informações. |
+| Critérios de êxito | Ao salvar o cadastro do novo paciente, esse deve ser visualizado ao final da lista de paciente.  |
+| Responsável pela elaborar do caso de Teste | Nayana |
 
 |Caso de Teste    | CT- 04 -  ................... |
 |:---|:---|
