@@ -8,12 +8,10 @@ CLIENTS[{
     treatment
 }]
 */
-
+//FUNÇÕES LOCALSTORAGE
 //CRUD - create read update delete
 const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? {clients:[]};
 const setLocalStorage = (arrClient) => localStorage.setItem('db_client', JSON.stringify(arrClient));
-
-//FUNÇÕES LOCALSTORAGE
 
 //C rud - CREATE
 const createClient = (client) => {
@@ -36,22 +34,20 @@ const readClient = () => getLocalStorage();
 const updateClient = (id, client) => {
     const dbClient = getLocalStorage();
     const clientIndex = dbClient.clients.findIndex(item => item.id === id);
-
     dbClient.clients[clientIndex] = client;
     setLocalStorage(dbClient);
-
 }
 
 //cru D - DELETE
-const deleteClient = (index) => {
+const deleteClient = (id) => {
     const dbClient = getLocalStorage();
-    dbClient.clients.splice(index, 1);
+    const clientIndex = dbClient.clients.findIndex(item => item.id === id);
+    dbClient.clients.splice(clientIndex, 1);
     setLocalStorage(dbClient);
+    updateClients();
 }
 
-//FUNÇÕES PADRÃO
-
-//Interação com o layout
+//FUNÇÕES DE INTERAÇÃO COM O LAYOUT
 const saveClient = () => {
     let newClient = {
         "id": parseInt(document.querySelector('#field-ID').value),
@@ -63,6 +59,7 @@ const saveClient = () => {
     }
     if(newClient.id) {
         updateClient(newClient.id, newClient);
+        console.log(newClient);
     } else {
         createClient(newClient);
     }
@@ -130,7 +127,7 @@ const createClientInf = (client) => {
 }
 
 //Limpa modal
-function clearForm() {
+const clearForm = () => {
     const form = document.querySelector('#modal-body');
     form.querySelector('#field-ID').value ='';
     form.querySelector('#name').value ='';
@@ -141,12 +138,10 @@ function clearForm() {
 }
 
 const updateClients = () => {
-    const dbClient = readClient(); // lê os dados
-    // Limpa a área de exibição de clientes
+    const dbClient = readClient();
     const clientContainer = document.querySelector('#client-inf');
     clientContainer.innerHTML = '';
 
-    // Adiciona os clientes atualizados à view, verificando duplicação
     dbClient.clients.forEach(client => {
         if (!Array.from(clientContainer.children).some(el => el.dataset.id === client.id)) {
             createClientInf(client);
