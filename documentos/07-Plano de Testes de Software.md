@@ -32,21 +32,21 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Ao salvar o cadastro do novo paciente, esse deve ser visualizado ao final da lista de paciente.  |
 | Responsável pela elaborar do caso de Teste | Nayana |
 
-|Caso de Teste    | CT- 04 -  Verificar se o profissional consegue ediatar as informações de um paciente |
+|Caso de Teste    | CT- 04 -  Verificar se o profissional consegue editar as informações de um paciente |
 |:---|:---|
 | Requisitos Associados | RF-03: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário. |
 | Objetivo do Teste | Verificar se é possível editar e salvar as informações alteradas de um paciente dentro do sistema. Visualizar as informações atualizadas na página. |
-| Passos | 1. Logado como profissional de saúde, clicar no botão 'editar' do box cinza de qualquer cliente. 2. Visualizar um modal com as informações já cadastradas do paciente. 3. Alterar as informações necessárias. 4. Clicar no botão 'salvar'. 4. Visualizar a mensagem de sucesso 'Paciente cadastrado com sucesso!'. 5. Clicar em 'ok'. 6. Visualizar na página as novas informações. |
+| Passos | 1. Logado como profissional de saúde, clicar no botão 'editar' abaixo do box cinza de qualquer cliente. 2. Visualizar um modal com as informações já cadastradas do paciente. 3. Alterar as informações necessárias. 4. Clicar no botão 'salvar'. 4. Visualizar a mensagem de sucesso 'Paciente cadastrado com sucesso!'. 5. Clicar em 'ok'. 6. Visualizar na página as novas informações. |
 | Critérios de êxito | Ao editar o cadastro de um paciente, esse deve ser visualizado na lista de paciente com as informações atualizadas. |
 | Responsável pela elaborar do caso de Teste | Nayana |
 
-|Caso de Teste    | CT- 05 -  ................... |
+|Caso de Teste    | CT- 05 -  Verificar se o profissional consegue deletar um paciente |
 |:---|:---|
-| Requisitos Associados | ................................. |
-| Objetivo do Teste | .................................... |
-| Passos | ........................................ |
-| Critérios de êxito | ...................................... |
-| Responsável pela elaborar do caso de Teste | .......................... |
+| Requisitos Associados | RF-03: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário. |
+| Objetivo do Teste | Verificar se é possível deletar o paciente e todas as informações que corresponda a esse dentro do sistema. Visualizar as informações atualizadas na página. |
+| Passos |  1. Logado como profissional de saúde, clicar no botão 'deletar' abaixo do box cinza de qualquer cliente. 2. Visualizar a página sem as respectivas informações removidas. |
+| Critérios de êxito | Ao deletar as informações de um paciente, a lista de pacientes deve ser apresentadas sem as informações removidas. |
+| Responsável pela elaborar do caso de Teste | Nayana |
 
 |Caso de Teste    | CT- 06 -  Verificar o funcionamento do filtro de pesquisa dos pacientes |
 |:---|:---|
