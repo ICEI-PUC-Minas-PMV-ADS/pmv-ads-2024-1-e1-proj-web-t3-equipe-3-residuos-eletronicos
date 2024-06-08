@@ -33,10 +33,13 @@ const createClient = (client) => {
 const readClient = () => getLocalStorage();
 
 // cr U d - UPDATE
-const updateClient = (index, client) => {
+const updateClient = (id, client) => {
     const dbClient = getLocalStorage();
-    dbClient.clients[index] = client;
+    const clientIndex = dbClient.clients.findIndex(item => item.id === id);
+
+    dbClient.clients[clientIndex] = client;
     setLocalStorage(dbClient);
+
 }
 
 //cru D - DELETE
@@ -58,8 +61,8 @@ const saveClient = () => {
         "medicine": document.querySelector('#medicine').value,
         "treatment": document.querySelector('#treatment').value
     }
-    if(getLocalStorage().clients.length > 0) {
-        
+    if(newClient.id) {
+        updateClient(newClient.id, newClient);
     } else {
         createClient(newClient);
     }
