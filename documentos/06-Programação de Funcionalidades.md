@@ -15,32 +15,35 @@ Todas as funcionalidades da page foram escritas em JS nativo.
 
 Exemplo da tela de listagem dos pacientes:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/14777f63-c0ab-42bb-a19a-7dde5ed91e86)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/9e792d7c-65cc-4a2b-8ab7-59218284d62f)
 
-É possível ao profissional de saúde realizar o cadastro de um novo paciente, atendendo as funcionalidades de
-Create, Read e Update das operações básicas do banco de dados que leva o acrônimo CRUD (create, read, update e delete).
-Após clicar no botão "Cadastrar Paciente" no canto inferior direito, um modal é aberto para serem inseridos os novos dados.
+É possível ao profissional de saúde realizar o cadastro, edição e exclusão de pacientes, atendendo as funcionalidades de Create, Read, Update e Delete das operações básicas do banco de dados que leva o acrônimo CRUD.
+Após clicar no botão "Cadastrar Paciente" no canto inferior direito, um modal é aberto para serem inseridos os novos dados. Ao clicar no botão "salvar", os dados serão salvos no Local Storage e a visualização da página atualizada.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/52dbff00-eb67-460c-8da6-e999965870c1)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/5b70e23e-6103-4a59-bc86-f663d9a99c75)
 
-O profissional poderá acessar individualmente as informações de cada paciente e selecionar um CID-10 para o mesmo.
+Após clicar no botão "editar" no canto inferior direito de cada caixa individual de informações do paciente, um modal é aberto, já preenchido com as informações do paciente que foi clicado, permitindo que as mudanças sejam realizadas. Ao clicar no botão "salvar", os dados serão atualizados no Local Storage e a visualização da página atualizada.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/9207ebd7-6f3c-42b3-822d-5f85b959a71d)
+
+Após clicar no botão "deletar" no canto inferior direito de cada caixa individual de informações do paciente, as informações do paciente que foi clicado serão imediatamente removidas e a visualização da página atualizada.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e0bba9cc-fcc7-49f7-9b11-e925b881e558)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/7b51bdfb-42c0-4f87-a7ee-20e0b083dad8)
+
+O profissional poderá acessar individualmente as informações de cada paciente e selecionar um CID-10 para o mesmo, como também poderá preencher sobre medicações e tratamento indicado.
+Ao clicar no botão "salvar" no canto inferior direito, o profissional poderá salvar todas as informações que preencheu. 
 Ainda não há funcionalidade implementada para essa janela.
 Para acessar essa page basta clicar na caixa amarela com o nome do paciente e o número do SUS.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/82f8a5cb-698f-4618-9e30-b2d35d01b000)
-
-O profissional de saúde poderá preencher sobre medicamento e tratamento indicado ao paciente.
-Ainda não há funcionalidade implementada para essa janela.
-Ao clicar no botão "salvar" no canto inferior direito, o profissional é direcionado a janela que torna possível a
-inserção do(s) medicamento(s) e do tratamento indicado ao paciente.
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/bb69e11c-1ed4-4371-8713-2f83b368147c)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e372834e-f049-4024-89b3-9a90579704dd)
 
 #### Requisito atendido
 
-RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde.
+RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde. Bem como admitir que o profissional possa criar, editar e deletar as informações se necessário.
 
-RF-Create, Read, Update: CRUD.
+RF-Create, Read, Update, delete: CRUD.
 
 #### Artefatos da funcionalidade
 
@@ -59,8 +62,6 @@ RF-Create, Read, Update: CRUD.
 ●client-inf.html
 
 ●client-inf.css
-
-●client-health-treatment.html
 
 ●client-health-treatment.css
 
