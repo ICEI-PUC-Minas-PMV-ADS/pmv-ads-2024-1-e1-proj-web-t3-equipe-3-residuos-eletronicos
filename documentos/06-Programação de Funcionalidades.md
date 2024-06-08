@@ -80,10 +80,12 @@ Todas as funcionalidades da page foram escritas em JS nativo.
 
 Exemplo da tela de listagem dos pacientes:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/9e792d7c-65cc-4a2b-8ab7-59218284d62f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/86353d2a-5ef0-4366-b7f0-b225884c8713)
 
 É possível ao profissional realizar uma busca dinâmica por qualquer palavra dentro dessa página.
 Após clicar na espaço da caixa de busca no canto superior direito que possui uma lupa ilustrativa e digitar a palavra procurada, a visualização da página é atualizada conforme a palavra digitada conscide com informações disponíveis na página.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0a5de4fd-b69d-49bd-90bd-915047a3963f)
 
 ### Requisito atendido
 
