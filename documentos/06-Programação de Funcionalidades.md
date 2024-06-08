@@ -6,11 +6,9 @@
 
 ### Responsável: Nayana Loivos
 
-O acesso pelo profissional de saúde a tela dos dados dos pacientes poderá ser realizado quando inciada sua sessão
-através da opção de menu "informações paciente".
+O acesso pelo profissional de saúde a tela dos dados dos pacientes poderá ser realizado quando inciada sua sessão através da opção de menu "informações paciente".
 Toda estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage.
-Também foi usada a linguagem de marcação HTML para o reconhecimento da organização do site pelo navegador,
-e a page foi estruturada com a folha de estilo CSS nativo.
+Também foi usada a linguagem de marcação HTML para o reconhecimento da organização do site pelo navegador, e a page foi estruturada com a folha de estilo CSS nativo.
 Todas as funcionalidades da page foram escritas em JS nativo.
 
 Exemplo da tela de listagem dos pacientes:
@@ -41,9 +39,7 @@ Para acessar essa page basta clicar na caixa amarela com o nome do paciente e o 
 
 #### Requisito atendido
 
-RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde. Bem como admitir que o profissional possa criar, editar e deletar as informações se necessário.
-
-RF-Create, Read, Update, delete: CRUD.
+RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário.
 
 #### Artefatos da funcionalidade
 
@@ -73,17 +69,37 @@ RF-Create, Read, Update, delete: CRUD.
 [Adicione as orientações de acesso à funcionalidade]
 <hr>
 
-### Título da funcionalidade
-[Adicione imagem da funcionalidade/tela]
+### Pesquisa dinâmica sobre a lista de pacientes (RF-004)
 
-### Responsável
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+### Responsável: Nayana Loivos
+
+O acesso pelo profissional de saúde a tela dos dados dos pacientes poderá ser realizado quando inciada sua sessão através da opção de menu "informações paciente".
+Toda estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage.
+Também foi usada a linguagem de marcação HTML para o reconhecimento da organização do site pelo navegador, e a page foi estruturada com a folha de estilo CSS nativo.
+Todas as funcionalidades da page foram escritas em JS nativo.
+
+Exemplo da tela de listagem dos pacientes:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/9e792d7c-65cc-4a2b-8ab7-59218284d62f)
+
+É possível ao profissional realizar uma busca dinâmica por qualquer palavra dentro dessa página.
+Após clicar na espaço da caixa de busca no canto superior direito que possui uma lupa ilustrativa e digitar a palavra procurada, a visualização da página é atualizada conforme a palavra digitada conscide com informações disponíveis na página.
 
 ### Requisito atendido
-[RF-X: adicione a descrição do requisito atendido]
+
+RF-004: A aplicação deve permitir ao profissional filtrar/pesquisar os pacientes no sistema de acordo com as informações inseridas no box da busca de pacientes.
 
 ### Artefatos da funcionalidade
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+
+●clients-inf.html
+
+●clients-inf.css
+
+●half-page-client-inf.css
+
+●clients.js
+
+●client-health-treatment.css
 
 #### Estrutura de Dados
 [Caso exista estrutura de dados, adicione aqui]
