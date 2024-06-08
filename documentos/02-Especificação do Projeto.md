@@ -63,7 +63,7 @@
 |------- |---------------------------------|----|
 | RF-01  |A aplicação deve permitir dois tipos de usuários para login: profissionais da saúde e pacientes.|ALTA  | 
 | RF-02  |A aplicação deve permitir que responda sobre seus sintomas e seu histórico numa espécie de formulário e permitir o profissional classificar o nível de urgência no atendimento ao paciente.|  ALTA  |
-| RF-03  |A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida quando dentro da visualização de uma lista de pacientes, como de forma mais detalhada quando da visualização das informações individuais de um paciente.|  ALTA  |
+| RF-03  |A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário.|  ALTA |
 | RF-04  |A aplicação deve permitir ao profissional filtrar/pesquisar os pacientes no sistema de acordo com as informações inseridas no box da busca de pacientes. |  ALTA |
 | RF-05  |Permitir o profissional disponibilizar na aplicação o diagnóstico e tratamento online para o paciente.|  MÉDIA  |
 | RF-06  |Permitir ao profissional de saúde fornecer dicas de como evitar uma nova intoxicação|  MÉDIA  |
