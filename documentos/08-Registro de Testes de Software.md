@@ -17,3 +17,17 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Responsável pela execução do caso de Teste | Nayana |
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/d35763ba-54e1-41e7-a770-03c831d89b00)
+
+|Caso de Teste    | CT- 03 - Verificar se o profissional consegue cadastrar um paciente |
+|:---|:---|
+| Resultados obtidos | É possível ao profissional cadastrar um novo paciente e visualizar a lista atualizada. |
+| Responsável pela execução do caso de Teste | Nayana |
+
+-------link do gif------------
+
+|Caso de Teste    | CT- 04 - Verificar se o profissional consegue editar as informações de um paciente |
+|:---|:---|
+| Resultados obtidos | É possível ao profissional editar um paciente e visualizar a lista atualizada. |
+| Responsável pela execução do caso de Teste | Nayana |
+
+-------link do gif------------
