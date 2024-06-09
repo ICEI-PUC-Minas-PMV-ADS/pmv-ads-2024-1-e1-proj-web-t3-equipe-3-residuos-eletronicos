@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ZT Health web site">
+    <meta name="author" content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias">
+    <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação">
+    <meta http-equiv="content-type" content="no-cache"/>
+    <title>ZT Health</title>
+    <link rel="stylesheet" href="/codigo-fonte/css/reset.min.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/template-header-footer.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/clients-inf.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/category-client-inf.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/client-inf.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/client-health-treatment.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header-content">
+        <div class="background-menu">
+            <img src="assets/image/logo-background-blue.svg" class="logo">
+            <img src="/codigo-fonte/assets/image/icon-menu.svg" class="icon-menu">
+            <img src="/codigo-fonte/assets/image/icone-user-image.svg" class="icon-user">
+        </div>
+        <nav class="container-nav-bar">
+            <ul class="nav-bar">
+                <li><a class="nav-bar-item" href="#teste">Informações Paciente</a></li>
+                <li><a class="nav-bar-item" href="#teste2">Lançar Diagnóstico</a></li>
+                <li><a class="nav-bar-item" href="#teste3">Dicas ao Paciente</a></li>
+                <li><a class="nav-bar-item" href="#teste4">Tratamento ao Paciente</a></li>
+                <li><a class="nav-bar-item" href="#teste5">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-sub-title">
+            <h2 class="sub-title">Informação de Pacientes</h2>
+        </div>
+        <div class="client-inf">
+            <form class="container-client" action="">
+                <div class="principal-client-inf">
+                    <h3 class="client-name">Bruno Dario Costa</h3>
+                    <h3 class="client-SUS">nº cartão SUS: 147898875645</h3>
+                </div>
+                <button type="submit" class="test-results">Exames</button>
+                <div class="select">
+                    <div id="category-select">
+                        <label for="options-view-button"></label>
+                        <input type="checkbox" id="options-view-button">
+
+                        <div id="select-button">
+                            <div id="selected-value">CD - 10</div>
+
+                            <div id="chevrons">
+                                <i data-lucide="chevron-down"></i>
+                                <i data-lucide="chevron-up" ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="options">
+                        <li class="option">
+                            <input
+                                    type="radio"
+                                    name="category"
+                                    value="white"
+                                    data-label="Branco"
+                            >
+                            <i data-lucide="stethoscope"></i>
+                            <span class="label">Branco</span>
+                            <i data-lucide="check"></i>
+                        </li>
+                        <li class="option">
+                            <input
+                                    type="radio"
+                                    name="category"
+                                    value="Yellow"
+                                    data-label="Amarelo"
+                            >
+                            <i data-lucide="stethoscope"></i>
+                            <span class="label">Amarelo</span>
+                            <i data-lucide="check"></i>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            <div class="screening">
+                <p class="question">pergunta?</p>
+                <p>resposta</p>
+            </div>
+            <div class="health-treatment">
+                <label for="treatment">tratamento:</label>
+                <textarea name="msg" id="treatment" cols="40" rows="1" oninput="autoResize(this)"></textarea>
+                <label for="medication">medicação:</label>
+                <textarea name="msg" id="medication" cols="40" rows="1" oninput="autoResize(this)"></textarea>
+            </div>
+        </div>
+        <div class="button-back-and-save">
+            <button type="submit" class="back" onclick = "redirectToAnotherPage('clients-inf.html')" >voltar</button>
+            <button type="submit" class="edit">editar</button>
+            <button type="submit" class="save">salvar</button>
+        </div>
+    </main>
+    <footer class="background-footer">
+        <p class="copy">&copy;2024 filhos da puc</p>
+        <a href="#" class="accessibility">acessibilidade</a>
+        <a href="#" class="term-of-use">termo de uso</a>
+        <a href="#" class="data-protection">proteção de dados</a>
+    </footer>
+</div>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="/codigo-fonte/js/category-client-inf.js"></script>
+<script src="/codigo-fonte/js/template.js"></script>
+<script>
+    function redirectToAnotherPage(content) {
+        window.location.href = `${content}`;
+    }
+    function autoResize(elem) {
+        elem.style.height = 'auto';
+        elem.style.height = (elem.scrollHeight) + 'px';
+    }
+</script>
+</body>
+</html>

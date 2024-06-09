@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-sub-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1B87FA;
+    height: 2rem;
+}
+.sub-title {
+    /*transform: translate(0, -50%);*/
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 10%;
+    padding: 3rem 0;
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0 1%;
+}
+
+.container-seach {
+    margin: 5px 10%;
+}
+
+.seach-image {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 8px;
+}
+
+.input-search {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10%;
+    border: 0.2rem solid #1B87FA;
+}
+
+button {
+    all: unset;
+    font-weight: bold;
+}
+
+.container-client {
+    display: flex;
+    margin: 0 10%;
+    padding: 1rem 0;
+}
+
+.principal-client-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #FAA91C;
+    color: #ffffff;
+    height: 3rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    border-radius: 5%;
+    text-align: left;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.principal-client-inf h3 {
+    font-weight: bold;
+}
+
+.test-results {
+    background-color: #1B87FA;
+    height: 3rem;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 0 1rem;
+    margin: 0 5% 0;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 10% 1%;
+    text-wrap: nowrap;
+}
+
+.button-back,.button-insert, .button-save, .button-delete {
+    background-color: #1B87FA;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 0 0 0 2%;
+    cursor: pointer;
+    max-height: 2rem;
+}
+
+.button-insert, .button-delete {
+    float: right;
+}
+.button-insert {
+    margin: 0 10% 0% 1%;
+}
+/*
+@media (min-width: 700px) {
+    .container-seach {
+
+    }
+}*/

@@ -1,0 +1,31 @@
+.screening {
+    display: flex;
+    height: 20rem;
+    color: #1D597D;
+    background-color: #B3B3B3;
+    margin: 0 10% 1%;
+    border: solid .3rem #1B87FA;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.screening .question {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 1% 0 10%;
+}
+
+.button-back-and-save {
+    display: flex;
+    justify-content: right;
+    margin: 0 10% 1%;
+}
+
+.button-back-and-save .back, .save, .edit {
+    background-color: #1B87FA;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 0 0 0 2%;
+    cursor: pointer;
+}

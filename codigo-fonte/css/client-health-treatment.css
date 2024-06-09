@@ -1,0 +1,22 @@
+.health-treatment {
+    display: flex;
+    border: solid .3rem #1B87FA;
+    margin: 0 10% 1%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #1D597D;
+}
+
+.health-treatment label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 1% 0 10%;
+    padding-bottom: 20px;
+    cursor: text;
+    text-transform: uppercase;
+}
+
+.health-treatment textarea {
+    box-sizing: border-box;
+    max-height: 100%;
+}
