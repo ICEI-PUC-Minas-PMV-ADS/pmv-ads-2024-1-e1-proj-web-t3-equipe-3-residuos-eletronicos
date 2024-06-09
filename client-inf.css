@@ -118,9 +118,98 @@
   .title{
     display: flex;
     margin: 10px;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #e6dddd;
     padding: 5px;
     h2{
         margin:0
     }
   }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
+.thumbnail {
+    background-color: #eadede;
+    padding: 60px;
+    font-size: 40px;
+}
+
+.description {
+    padding: px;
+    text-align: left;
+}
+
+.background-footer {
+    background-color: #2196F3;
+    color: rgb(242, 235, 235);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.hidden {
+    display: none;
+}
+
+#edit-form {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#edit-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#edit-form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: px;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+h2 {
+    color: #0b0b0b;
+    margin-top: 40px;
+}
+p {
+    font-size: px;
+    margin-bottom: 30px;
+}
+.section {
+    margin-bottom: 40px;
+}
+
+
