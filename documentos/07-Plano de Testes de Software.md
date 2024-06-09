@@ -56,13 +56,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Os dados inseridos no filtro de pesquisa deve mostrar a caixa cinza de informações resumidas do paciente que possui o dado informado. |
 | Responsável pela elaborar do caso de Teste | Nayana |
 
-|Caso de Teste    | CT- 07 -  ................... |
+|Caso de Teste    | CT- 07 - Verificar se o paciente consegue acessar o artigo |
 |:---|:---|
-| Requisitos Associados | ................................. |
-| Objetivo do Teste | .................................... |
-| Passos | ........................................ |
-| Critérios de êxito | ...................................... |
-| Responsável pela elaborar do caso de Teste | .......................... |
+| Requisitos Associados |Rf-08: A aplicação deve permitir que o paciente possa ler informações sobre resíduos tóxicos e sintomas causados ​​por essas substâncias por meio de artigos. |
+| Objetivo do Teste | Verificar se o link está redirecionado o paciente a pagina de artigo |
+| Passos |1. Verificar se o artigo desejado . 2. Acesso ao artigo com exito. |
+| Critérios de êxito | Acesso do paciente com exito a artigo informativo de substancias Quimicas. |
+| Responsável pela elaborar do caso de Teste | Handryws Junior |
 
  
 > **Links Úteis**:
