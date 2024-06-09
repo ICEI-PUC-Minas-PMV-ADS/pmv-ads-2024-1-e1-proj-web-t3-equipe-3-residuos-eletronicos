@@ -46,6 +46,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 -------link do gif------------
 ### Pontos de observação:
-.Ao criar e editar as informações do paciente, o modal não fecha automaticamente após o evento de 'salvar', assim que essa é uma melhoria que pode ser implementada em versões futuras.
-.Ao deletar um paciente, não aparece nenhuma mensagem de aviso ou alertar para que o usuário possa realmente confirmar a ação.
-. O link redirecionamento a pagina individual do paciente, não está vinculando ao paciente clicado.
++ Ao criar e editar as informações do paciente, o modal não fecha automaticamente após o evento de 'salvar', assim que essa é uma melhoria que pode ser implementada em versões futuras.
++ Ao deletar um paciente, não aparece nenhuma mensagem de aviso ou alertar para que o usuário possa realmente confirmar a ação.
++ O link redirecionamento a pagina individual do paciente, não está vinculando ao paciente clicado.
+
+<hr>
