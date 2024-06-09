@@ -33,7 +33,8 @@
 
                 <nav class="container-nav-bar">
                     <ul class="nav-bar">
-                        <li><a class="nav-bar-item" href="#Paciente">Paciente</a></li>
+                        <h1 id='logado'></h1>
+                        <li><a class="nav-bar-item" id="paciente" onclick="redirect('tela_login_paciente.html')" href="">Paciente</a></li>
                         <li><a class="nav-bar-item" href="#Profissional da saúde">Profissional de saúde</a></li>
                     </ul>
                 </nav>  
@@ -97,6 +98,24 @@
 
     </div>
     <script src="/codigo-fonte/js/template.js"></script>
+    <script>
+
+function redirect (url){
+       window.location.href = `${url}`;
+
+}
+    </script> 
+    <script>
+
+        let userLogado = localStorage.getItem('userLogado')
+
+        let logado = document.querySelector('#logado')
+
+        logado.innerHTML = 'Olá'
+
+    </script>
+
+
 </body>
 
 </html>

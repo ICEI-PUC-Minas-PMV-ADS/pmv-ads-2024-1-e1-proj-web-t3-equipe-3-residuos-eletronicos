@@ -33,12 +33,12 @@
             <div class="page">
                 <form method="POST" class="formLogin">
                     <h1>Bem vindo ao ZT-HEALTH</h1>
-                    <label for="CPF">CRM/Coren</label>
-                    <input type="CPF" placeholder="Digite seu CRM/Coren" autofocus="true" />
-                    <label for="password">Senha</label>
-                    <input type="password" placeholder="Digite sua senha" />
-                    <a href="/">Esqueci minha senha</a>
-                    <input type="submit" value="Acessar" class="btn" />
+                    <label for="CPF" id="labelCPF">CRM/Coren</label>
+                    <input id="CPF" type="CPF" placeholder="Digite seu CRM/Coren" autofocus="true" />
+                    <label for="password" id="labelsenha">Senha</label>
+                    <input id="senha" type="password" placeholder="Digite sua senha" />
+                    <a href="/">Esqueci minha senha/Realizar novo cadastro/Deletar conta</a>
+                    <button onclick='acessar ()' type="submit" class="btn">Acessar</button>
                 </form>
             </div>
         </main>
@@ -52,6 +52,7 @@
         </footer>
     </div>
     <script src="/codigo-fonte/js/template.js"></script>
+    <script src="tela_login_profsaude.js"></script>
 </body>
 
 </html>

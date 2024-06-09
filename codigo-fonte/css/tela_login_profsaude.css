@@ -71,6 +71,7 @@ body {
     transition: all linear 160ms;
     cursor: pointer;
     margin: 0 !important;
+    height: 7vh;
 
 }
 

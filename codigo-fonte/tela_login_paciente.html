@@ -1,58 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="ZT Health web site">
-    <meta name="author" content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias">
-    <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação">
-    <meta http-equiv="content-type" content="no-cache" />
+  <head>
+    <meta charset="UTF-8"/>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="description" content="ZT Health web site"/>
+    <meta
+      name="author"
+      content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias"/>
+    <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação"/>
+    <meta http-equiv="content-type" content="no-cache"/>
     <title>ZT Health</title>
-    <link rel="stylesheet" href="/codigo-fonte/css/reset.min.css">
-    <link rel="stylesheet" href="/codigo-fonte/css/template-header-footer.css">
+    <link rel="stylesheet" href="/codigo-fonte/css/reset.min.css"/>
+    <link
+      rel="stylesheet"
+      href="/codigo-fonte/css/template-header-footer.css"/>
     <link rel="stylesheet" href="/codigo-fonte/css/tela_login_paciente.css"
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header-content">
-            <div class="background-menu">
-                <img src="assets/image/logo-background-blue.svg" class="logo">
-                <img src="/codigo-fonte/assets/image/icon-menu.svg" class="icon-menu">
-                <img src="/codigo-fonte/assets/image/icone-user-image.svg" class="icon-user">
-            </div>
-            <nav class="container-nav-bar">
-                <ul class="nav-bar">
-                    <li><a class="nav-bar-item" href="#teste">Paciente</a></li>
-                    <li><a class="nav-bar-item" href="#teste2">Profissional de saúde</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="page">
-                <form method="POST" class="formLogin">
-                    <h1>Bem vindo ao ZT-HEALTH</h1>
-                    <label for="CPF">CPF</label>
-                    <input type="CPF" placeholder="Digite seu CPF" autofocus="true" />
-                    <label for="password">Senha</label>
-                    <input type="password" placeholder="Digite sua senha" />
-                    <a href="/">Esqueci minha senha</a>
-                    <input type="submit" value="Acessar" class="btn" />
-                    <input type="submit" value="Entrar com gov.br" class="btn" />
-                </form>
-            </div>
-        </main>
-        <footer class="background-footer">
-            <p class="copy">&copy;2024 filhos da puc</p>
-            <a href="#" class="accessibility">acessibilidade</a>
-            <a href="#" class="term-of-use">termo de uso</a>
-            <a href="#" class="data-protection">proteção de dados</a>
-
-
-        </footer>
+      <header class="header-content">
+          <div class="background-menu">
+              <img src="assets/image/logo-background-blue.svg" class="logo">
+              <img src="/codigo-fonte/assets/image/icon-menu.svg" class="icon-menu">
+              <img src="/codigo-fonte/assets/image/icone-user-image.svg" class="icon-user">
+          </div>
+          <nav class="container-nav-bar">
+              <ul class="nav-bar">
+                  <li><a class="nav-bar-item" href="#teste">Paciente</a></li>
+                  <li><a class="nav-bar-item" href="#teste2">Profissional de saúde</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main>
+        <div class="page">
+          <form method="POST" class="formLogin">
+            <h1>Bem vindo ao ZT-HEALTH</h1>
+            <label for="CPF" id="labelCPF">CPF</label>
+            <input id="CPF" type="CPF" placeholder="Digite seu CPF" autofocus="true"/>
+            <label for="password" id="labelsenha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha"/>
+            <a href="/">Esqueci minha senha/Realizar novo cadastro/Deletar conta</a>
+            <button onclick='acessar ()' type="submit" class="btn">Acessar</button>
+            <button onclick='gov()' type="submit" class="btn">Entrar com gov.br</button>
+          </form>
+        </div>
+      </main>
+      <footer class="background-footer">
+        <p class="copy">&copy;2024 filhos da puc</p>
+        <a href="#" class="accessibility">acessibilidade</a>
+        <a href="#" class="term-of-use">termo de uso</a>
+        <a href="#" class="data-protection">proteção de dados</a>
+      </footer>
     </div>
     <script src="/codigo-fonte/js/template.js"></script>
-</body>
-
+    <script src="tela_login_paciente.js"></script>
+  </body>
 </html>
