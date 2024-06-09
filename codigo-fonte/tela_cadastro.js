@@ -63,13 +63,16 @@ function Cadastrar (){
     if (validCPF && validsenha && validconfirmsenha ){
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 
-        listaUser.push(
-        {
-            CPFCad: CPF.value,
-            senhaCad: senha.value
+        // Verifica se o CPF já está cadastrado
+        if (listaUser.some(user => user.CPFCad === CPF.value)) {
+          alert('CPF já cadastrado!');
+          return;
+      }
 
-        }
-        )
+      listaUser.push({
+          CPFCad: CPF.value,
+          senhaCad: senha.value
+      });
         
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
@@ -80,25 +83,25 @@ function Cadastrar (){
     }
 }
 
-function Deletar(index) {
-  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
-  listaUser.splice(index, 1)
-  localStorage.setItem('listaUser', JSON.stringify(listaUser))
-  
+function Deletar(cpf) {
+  let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
+  let updatedList = listaUser.filter(user => user.CPFCad !== cpf);
+
+  if (updatedList.length === listaUser.length) {
+      alert('Usuário não encontrado!');
+      return;
+  }
+
+  localStorage.setItem('listaUser', JSON.stringify(updatedList));
+  alert('Usuário deletado com sucesso!');
 }
 
 function AtualizarSenhaByCPF(cpf, novaSenha) {
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
-
-  // Procura pelo usuário na lista pelo CPF
   let usuarioIndex = listaUser.findIndex(usuario => usuario.CPFCad === cpf);
 
-  // Verifica se o usuário foi encontrado
   if (usuarioIndex !== -1) {
-      // Atualiza a senha do usuário encontrado
       listaUser[usuarioIndex].senhaCad = novaSenha;
-
-      // Salva a lista atualizada de volta no armazenamento local
       localStorage.setItem('listaUser', JSON.stringify(listaUser));
       alert('Senha atualizada com sucesso!');
   } else {
