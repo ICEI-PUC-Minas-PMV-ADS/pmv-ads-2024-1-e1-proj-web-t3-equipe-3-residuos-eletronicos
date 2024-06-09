@@ -53,3 +53,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 + O link redirecionamento a pagina individual do paciente, não está vinculando ao paciente clicado.
 
 <hr>
+
+|Caso de Teste    | CT- 08 - Verificar o funcionamento das paginas de artigos |
+|:---|:---|
+| Resultados obtidos | É possível ao paciente acessar o artigo atraves do clique no artigo desejado |
+| Responsável pela execução do caso de Teste | Handryws Junior | 
