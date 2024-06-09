@@ -207,3 +207,36 @@ RF-Create e Read.
 ### Instruções de acesso
 [Adicione as orientações de acesso à funcionalidade]
 <hr>
+
+### Acesso do Paciente aos Artigos  (RF-008)
+### Handryws Junior
+
+O acesso a partir da página inicial poderá ser feito por dois tipos de usuários para login: Profissionais da saúde e Pacientes. Toda a estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage. A página foi construída utilizando HTML para marcação e organização, CSS para estilização, e JavaScript para funcionalidades dinâmicas. 
+
+Exemplo da tela: 
+![ZTHEATH](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/94655d06-9b7e-4cc9-a754-056aefe5ab67)
+
+Ao escolher o artigo desejado o paciente será redirecionado a uma pagina onde o mesmo terá acesso ao artigo desejado .
+
+Exemplo da página de artigo:
+![Anotação 2024-06-09 172737](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/0b8008ea-52ae-4af2-b6b3-8f50a1e29655)
+
+### Requisito Atendido
+RF08 A aplicação deve permitir que o paciente possa ler informações sobre resíduos tóxicos e sintomas causados ​​por essas substâncias por meio de artigos.
+
+### Artefatos da funcionalidade
+
+●cliente-inf.html
+
+●cliente-inf.css
+
+●artigo.js
+
+●artigo1.html
+
+#### Estrutura de Dados
+[Caso exista estrutura de dados, adicione aqui]
+
+### Instruções de acesso
+[Adicione as orientações de acesso à funcionalidade]
+<hr>
