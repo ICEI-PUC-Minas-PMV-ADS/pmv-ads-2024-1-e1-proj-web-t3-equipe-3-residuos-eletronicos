@@ -54,6 +54,7 @@ confirmsenha.addEventListener('keyup', ()=>{
       labelconfirmsenha.setAttribute('style', 'color: green')
       labelconfirmsenha.innerHTML = '<strong>Confirmar Senha</strong>'
       confirmsenha.setAttribute('style', 'border-color: green')
+      senha.setAttribute('style', 'border-color: green')
       validconfirmsenha = true
 
     }
@@ -83,7 +84,9 @@ function Cadastrar (){
     }
 }
 
-function Deletar(CPF) {
+function Deletar(event,CPF) {
+  event.preventDefault()
+  
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
   let updatedList = listaUser.filter(user => user.CPFCad !== CPF);
 
@@ -96,7 +99,9 @@ function Deletar(CPF) {
   alert('Usuário deletado com sucesso!');
 }
 
-function AtualizarSenhaByCPF(CPF, novaSenha) {
+function AtualizarSenhaByCPF(event, CPF, novaSenha) {
+  event.preventDefault()
+
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
   let usuarioIndex = listaUser.findIndex(usuario => usuario.CPFCad == CPF);
 

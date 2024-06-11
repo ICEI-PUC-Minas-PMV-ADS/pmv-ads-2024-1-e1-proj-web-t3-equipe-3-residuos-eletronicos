@@ -8,7 +8,7 @@ let validsenha = false
 
 CPF.addEventListener('keyup', ()=>{
       let cleanedCPF = CPF.value.replace(/\D/g, '');
-      if(CPF.value.length <=11){
+      if(CPF.value.length <=10){
         labelCPF.setAttribute('style', 'color: red')
         labelCPF.innerHTML = '<strong>CPF *Insira no mìnimo 11 caracteres!</strong>'
         CPF.setAttribute('style', 'border-color: red')
@@ -53,7 +53,7 @@ function acessar (){
         
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
-        window.location.href = '/tela_inicial.html'
+        window.location.href = "/codigo-fonte/tela_incial.html"
 
     } else {
         alert('Necessário preencher todos os campos corretamente.')
@@ -62,6 +62,9 @@ function acessar (){
 }
 
 function acessar(){
+
+  event.preventDefault()
+
   let CPF = document.querySelector('#CPF')
   let labelCPF = document.querySelector('#labelCPF')
   let validCPF = false
