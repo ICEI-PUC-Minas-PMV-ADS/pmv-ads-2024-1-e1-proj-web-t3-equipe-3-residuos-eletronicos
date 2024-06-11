@@ -83,11 +83,11 @@ function Cadastrar (){
     }
 }
 
-function Deletar(cpf) {
+function Deletar(CPF) {
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
-  let updatedList = listaUser.filter(user => user.CPFCad !== cpf);
+  let updatedList = listaUser.filter(user => user.CPFCad !== CPF);
 
-  if (updatedList.length === listaUser.length) {
+  if (updatedList.length == listaUser.length) {
       alert('Usuário não encontrado!');
       return;
   }
@@ -96,9 +96,9 @@ function Deletar(cpf) {
   alert('Usuário deletado com sucesso!');
 }
 
-function AtualizarSenhaByCPF(cpf, novaSenha) {
+function AtualizarSenhaByCPF(CPF, novaSenha) {
   let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]');
-  let usuarioIndex = listaUser.findIndex(usuario => usuario.CPFCad === cpf);
+  let usuarioIndex = listaUser.findIndex(usuario => usuario.CPFCad == CPF);
 
   if (usuarioIndex !== -1) {
       listaUser[usuarioIndex].senhaCad = novaSenha;
