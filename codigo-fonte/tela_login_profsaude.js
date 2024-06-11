@@ -40,6 +40,9 @@ senha.addEventListener('keyup', ()=>{
 })
 
 function acessar (){
+
+  event.preventDefault()
+  
     if (validCPF && validsenha ){
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
 
