@@ -3,50 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>ZT Health</title>
-    <meta name="description" content="ZT Health web site">
-    <meta name="author" content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias">
-    <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação">
-    <meta http-equiv="cache-control" content="no-cache">
-    <link rel="stylesheet" href="reset.min.css">
-    <link rel="stylesheet" href="css/tela_inicial.css">
+    <meta content="ZT Health web site" name="description">
+    <meta content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias" name="author">
+    <meta content="eletronicos, residuos, saúde, intoxicação" name="keywords">
+    <meta content="no-cache" http-equiv="cache-control">
+    <link href="reset.min.css" rel="stylesheet">
+    <link href="css/tela_inicial.css" rel="stylesheet">
 </head>
 
 <body>
-<header class="header-container">
-    <div class="background-menu">
-        <div class="logo"></div>
-        <img src="assets/image/icone-user-image.svg" class="icone-user" alt="User Icon">
+<div class="wrapper">
+    <header class="header-content">
+        <div class="background-menu">
+            <img alt="Background azul'" class="logo" src="assets/image/logo-background-blue.svg">
+            <img alt="Icone Menu" class="icon-menu" src="assets/image/icon-menu.svg">
+            <img alt="Icone Usuario" class="icon-user" src="assets/image/icone-user-image.svg">
+        </div>
         <nav class="container-nav-bar">
-            <ul>
-                <li>
-                    <a id="minha-conta" class="my-count-menu" href="#my-account-menu">Minha conta</a>
-                    <ul class="nav-bar">
-                        <li><a id="nav-bar-item-paciente" class="nav-bar-item" href="">Paciente</a></li>
-                        <li><a id="nav-bar-item-profissional" class="nav-bar-item" href="">Profissional de saúde</a></li>
-                    </ul>
-                </li>
+            <ul class="nav-bar">
+                <li><a class="nav-bar-item" href="#teste" id="informacao-pacientes">Informação Pacientes</a></li>
+                <li><a class="nav-bar-item" href="#teste2">Lançar Diagnóstico</a></li>
+                <li><a class="nav-bar-item" href="#teste3">Dicas ao Paciente</a></li>
+                <li><a class="nav-bar-item" href="#teste4">Tratamento ao Paciente</a></li>
+                <li><a class="nav-bar-item" href="#teste5">Logout</a></li>
             </ul>
         </nav>
-    </div>
-</header>
-<main>
-    <div class="banner">
-        <img class="banner-img" src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=MnwxfDB8MXxyYW5kb218MHx8aG9zcGl0YWx8fHx8fHwxNzE1NDY4MjY0&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900" alt="Banner Image">
-    </div>
-    <div class="title">
-        <span class="dot"></span>
-        <h2>Substâncias Químicas</h2>
-    </div>
-    <br>
-    <div class="grid-container" id="article-grid">
-    </div>
-</main>
-<footer class="background-footer">
-    <span>Todos os direitos reservados a ZT HEALTH</span>
-</footer>
+    </header>
+    <main>
+        <div class="banner">
+            <img alt="Banner Image"
+                 class="banner-img"
+                 src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=130&ixid=MnwxfDB8MXxyYW5kb218MHx8aG9zcGl0YWx8fHx8fHwxNzE1NDY4MjY0&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900">
+        </div>
+        <div class="title">
+            <span class="dot"></span>
+            <h2>Substâncias Químicas</h2>
+        </div>
+        <br>
+        <div class="grid-container" id="article-grid">
+        </div>
+    </main>
+    <footer class="background-footer">
+        <p class="copy">&copy;2024 filhos da puc</p>
+        <a class="accessibility" href="#">acessibilidade</a>
+        <a class="term-of-use" href="#">termo de uso</a>
+        <a class="data-protection" href="#">proteção de dados</a>
+    </footer>
+</div>
 <script src="index.js"></script>
+<script src="js/template.js"></script>
 </body>
 
 </html>

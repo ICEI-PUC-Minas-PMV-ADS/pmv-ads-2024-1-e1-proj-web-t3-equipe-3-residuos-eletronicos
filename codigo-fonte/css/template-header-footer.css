@@ -79,9 +79,6 @@ body {
     color: white;
     height: 2rem;
     padding: 1rem 0;
-}
-
-.background-footer {
     display: flex;
     font-size: .8rem;
     justify-content: flex-start;
@@ -92,6 +89,7 @@ body {
     color: #FAA91C;
     font-weight: bold;
 }
+
 .background-footer a:active {
     color: #FFFFFF;
 }
@@ -118,14 +116,17 @@ body {
         display: block;
         float: right;
     }
+
     .icon-menu {
         display: none;
     }
+
     .nav-bar-item {
         display: inline-block;
         padding: 5px 10px;
         color: #000000;
     }
+
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -133,5 +134,4 @@ body {
                          "content"
                          "footer";
     }
-
 }
