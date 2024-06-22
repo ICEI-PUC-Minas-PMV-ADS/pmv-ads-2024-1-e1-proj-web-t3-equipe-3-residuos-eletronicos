@@ -3,7 +3,6 @@
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/03-Metodologia.md"> Metodologia</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/blob/main/documentos/05-Template%20padr%C3%A3o%20da%20Aplica%C3%A7%C3%A3o.md"> Arquitetura da Solução</a>
 
 ### Tela dos dados dos pacientes (RF-003)
-
 ### Responsável: Nayana Loivos
 
 O acesso pelo profissional de saúde a tela dos dados dos pacientes poderá ser realizado quando inciada sua sessão através da opção de menu "informações paciente".
@@ -38,10 +37,10 @@ Para acessar essa page basta clicar na caixa amarela com o nome do paciente e o 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/e372834e-f049-4024-89b3-9a90579704dd)
 
 #### Requisito atendido
-
 RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo paciente ao profissional de saúde tanto de forma resumida na visualização de uma lista de pacientes, como de forma detalhada na visualização das informações individuais de um único paciente. Bem como admitir que o profissional possa criar, editar e deletar as informações, caso necessário.
 
 #### Artefatos da funcionalidade
+●clients-inf.html
 
 ●clients-inf.html
 
@@ -61,8 +60,9 @@ RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo 
 
 ●client-health-treatment.css
 
-#### Estrutura de Dados
+●index.js
 
+#### Estrutura de Dados
 [Caso exista estrutura de dados, adicione aqui]
 
 ### Instruções de acesso
@@ -70,7 +70,6 @@ RF-003: A aplicação deve permitir a visualização dos dados respondidos pelo 
 <hr>
 
 ### Pesquisa dinâmica sobre a lista de pacientes (RF-004)
-
 ### Responsável: Nayana Loivos
 
 O acesso pelo profissional de saúde a tela dos dados dos pacientes poderá ser realizado quando inciada sua sessão através da opção de menu "informações paciente".
@@ -88,11 +87,9 @@ Após clicar na espaço da caixa de busca no canto superior direito que possui u
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/92792650/0a5de4fd-b69d-49bd-90bd-915047a3963f)
 
 ### Requisito atendido
-
 RF-004: A aplicação deve permitir ao profissional filtrar/pesquisar os pacientes no sistema de acordo com as informações inseridas no box da busca de pacientes.
 
 ### Artefatos da funcionalidade
-
 ●clients-inf.html
 
 ●clients-inf.css
@@ -110,17 +107,27 @@ RF-004: A aplicação deve permitir ao profissional filtrar/pesquisar os pacient
 [Adicione as orientações de acesso à funcionalidade]
 <hr>
 
-### Título da funcionalidade
-[Adicione imagem da funcionalidade/tela]
+### Tela ds (RF-006)
+### Responsável: Handryws Junior
 
-### Responsável
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+O acesso pelo profissional de saúde a tela de substâncias Qímicas, fornece aos pacientes a visualização de artigos que auxiliaram no quadro de educação e conscietização sobre as substâncias expostas através da opção do artigo selecionado.
+Toda estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage.
+Também foi usada a linguagem de marcação HTML para o reconhecimento da organização do site pelo navegador,
+e a page foi estruturada com a folha de estilo CSS nativo.
+Todas as funcionalidades da page foram escritas em JS nativo.
 
-### Requisito atendido
-[RF-X: adicione a descrição do requisito atendido]
+Exemplo da tela de artigo :
+![Anotação 2024-06-09 012026](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/d6c24e04-f172-43d0-a3dd-a0dbc334557d)
 
-### Artefatos da funcionalidade
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+#### Requisito atendido
+RF-006:A aplicação deve permitir ao profissional de saúde fornecer dicas de como evitar uma nova intoxicação.
+
+#### Artefatos da funcionalidade
+●tela_inicial.html
+
+●tela_inicial.css
+
+●index.js
 
 #### Estrutura de Dados
 [Caso exista estrutura de dados, adicione aqui]
@@ -129,17 +136,30 @@ RF-004: A aplicação deve permitir ao profissional filtrar/pesquisar os pacient
 [Adicione as orientações de acesso à funcionalidade]
 <hr>
 
-### Título da funcionalidade
-[Adicione imagem da funcionalidade/tela]
+### Acesso do Paciente aos Artigos  (RF-008)
+### Handryws Junior
 
-### Responsável
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+O acesso a partir da página inicial poderá ser feito por dois tipos de usuários para login: Profissionais da saúde e Pacientes. Toda a estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage. A página foi construída utilizando HTML para marcação e organização, CSS para estilização, e JavaScript para funcionalidades dinâmicas.
 
-### Requisito atendido
-[RF-X: adicione a descrição do requisito atendido]
+Exemplo da tela:
+![ZTHEATH](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/94655d06-9b7e-4cc9-a754-056aefe5ab67)
+
+Ao escolher o artigo desejado o paciente será redirecionado a uma pagina onde o mesmo terá acesso ao artigo desejado .
+
+Exemplo da página de artigo:
+![Anotação 2024-06-09 172737](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/0b8008ea-52ae-4af2-b6b3-8f50a1e29655)
+
+### Requisito Atendido
+RF08 A aplicação deve permitir que o paciente possa ler informações sobre resíduos tóxicos e sintomas causados ​​por essas substâncias por meio de artigos.
 
 ### Artefatos da funcionalidade
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+●tela_inicial.html
+
+●tela_inicial.css
+
+●artigo.js
+
+●artigo1.html
 
 #### Estrutura de Dados
 [Caso exista estrutura de dados, adicione aqui]
@@ -149,7 +169,6 @@ RF-004: A aplicação deve permitir ao profissional filtrar/pesquisar os pacient
 <hr>
 
 ### Dois tipos de usuários para login (RF-001)
-
 ### Isabella Cunha 
 
 O acesso a partir da página inicial poderá ser feito por dois tipos de usuários para login: Profissionais da saúde e Pacientes. 
@@ -174,13 +193,11 @@ Exemplo de tela de login para Profissionais da Saúde:
 <img width="1438" alt="tela_login_profsaude" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/2ddddfba-faad-480c-904b-df253fc7446d">
 
 ### Requisito Atendido
-
 RF-01: A aplicação deve permitir dois tipos de usuários para login: profissionais da saúde e pacientes. 
 
 RF-Create e Read.
 
 ### Artefatos da funcionalidade
-
 ●reset.min.css
 
 ●template-header-footer.html
@@ -200,39 +217,6 @@ RF-Create e Read.
 ●tela_login_paciente.html
 
 ●tela_login_paciente.css
-
-#### Estrutura de Dados
-[Caso exista estrutura de dados, adicione aqui]
-
-### Instruções de acesso
-[Adicione as orientações de acesso à funcionalidade]
-<hr>
-
-### Acesso do Paciente aos Artigos  (RF-008)
-### Handryws Junior
-
-O acesso a partir da página inicial poderá ser feito por dois tipos de usuários para login: Profissionais da saúde e Pacientes. Toda a estrutura de dados foi baseada em dados mocados por meio da ferramenta do navegador chamada Local Storage. A página foi construída utilizando HTML para marcação e organização, CSS para estilização, e JavaScript para funcionalidades dinâmicas. 
-
-Exemplo da tela: 
-![ZTHEATH](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/94655d06-9b7e-4cc9-a754-056aefe5ab67)
-
-Ao escolher o artigo desejado o paciente será redirecionado a uma pagina onde o mesmo terá acesso ao artigo desejado .
-
-Exemplo da página de artigo:
-![Anotação 2024-06-09 172737](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165658208/0b8008ea-52ae-4af2-b6b3-8f50a1e29655)
-
-### Requisito Atendido
-RF08 A aplicação deve permitir que o paciente possa ler informações sobre resíduos tóxicos e sintomas causados ​​por essas substâncias por meio de artigos.
-
-### Artefatos da funcionalidade
-
-●cliente-inf.html
-
-●cliente-inf.css
-
-●artigo.js
-
-●artigo1.html
 
 #### Estrutura de Dados
 [Caso exista estrutura de dados, adicione aqui]
