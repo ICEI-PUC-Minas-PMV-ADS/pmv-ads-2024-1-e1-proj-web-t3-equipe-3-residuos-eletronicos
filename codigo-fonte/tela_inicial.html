@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ZT Health web site">
+    <meta name="author" content="Nayana_Loivos, Isabella_Augusta, João_Tannus, Handrys_Matias">
+    <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação">
+    <meta http-equiv="content-type" content="no-cache" />
+    <title>ZT Health</title>
+    <link rel="stylesheet"
+        href="css/reset.min.css">
+    <link rel="stylesheet"
+        href="css/template-header-footer.css">
+    <link rel="stylesheet"
+        href="css/tela_inicial.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header-content">
+            <div class="background-menu">
+                <img src="assets/image/logo-background-blue.svg"
+                    class="logo">
+                <img src="assets/image/icon-menu.svg"
+                    class="icon-menu">
+                <img src="assets/image/icone-user-image.svg"
+                    class="icon-user">
+
+                <nav class="container-nav-bar">
+                    <ul class="nav-bar">
+                        <h1 id='logado'></h1>
+                        <li><a class="nav-bar-item" id="paciente" href="tela_login_paciente.html">Paciente</a></li>
+                        <li><a class="nav-bar-item" href="tela_login_profsaude.html">Profissional de saúde</a></li>
+                    </ul>
+                </nav>  
+
+            </div>
+
+        </header>
+
+        <main>
+            <div class="container">BANNER</div>
+            <div class="topics">
+
+                <div class="divisor">
+                    <div class="circle"></div>
+                    <h2>Substâncias Químicas</h2>
+                </div>
+
+                <div class="divisor">
+                    <div class="circle"></div>
+                    <h2>Substâncias Químicas</h2>
+                </div>
+
+                <div class="divisor">
+                    <div class="circle"></div>
+                    <h2>Cuidados Meio Ambiente</h2>
+                </div>
+
+                <div class="divisor">
+                    <div class="circle"></div>
+                    <h2>Descarte Resíduos Eletrônicos</h2>
+                </div>
+
+            </div>
+            <div class="information">
+                <div class="inf">
+                    <div class="fake-image"></div>
+                    <div class="texto">
+                        <h1>Lorem Ipsum Dollr</h1>
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nulla aliquam est provident
+                            dignissimos ad, quo dolor facere eos? Cumque quae pariatur facilis eligendi atque illo quod
+                            itaque omnis consequatur.</span>
+                    </div>
+                </div>
+                <div class="inf">
+                    <div class="fake-image"></div>
+                    <div class="texto">
+                        <h1>Lorem Ipsum Dollr</h1>
+                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A nulla aliquam est provident
+                            dignissimos ad, quo dolor facere eos? Cumque quae pariatur facilis eligendi atque illo quod
+                            itaque omnis consequatur.</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="background-footer">
+            <p class="copy">&copy;2024 filhos da puc</p>
+            <a href="#" class="accessibility">acessibilidade</a>
+            <a href="#" class="term-of-use">termo de uso</a>
+            <a href="#" class="data-protection">proteção de dados</a>
+        </footer>
+
+    </div>
+    <script src="js/template.js"></script>
+    <script>
+        function redirect (url){
+               window.location.href = `${url}`;
+        }
+    </script>
+    <script>
+        let userLogado = localStorage.getItem('userLogado')
+
+        let logado = document.querySelector('#logado')
+
+        logado.innerHTML = 'Olá'
+    </script>
+
+</body>
+
+</html>

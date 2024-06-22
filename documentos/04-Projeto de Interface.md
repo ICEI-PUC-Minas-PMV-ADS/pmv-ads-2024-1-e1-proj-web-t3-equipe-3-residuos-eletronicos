@@ -226,4 +226,15 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <figure> 
   <figcaption> Figura 21 - Tela de Encerramento
+</figure> 
+<hr>
+    
+<h3><b>Tela - Cadastro/Alteração de Senha/Exclusão de Cadastro</b></h3>
+<p>A tela de Cadastro/Alteração de Senha/Exclusão de Cadastro apresenta as opções ao úsuario para que ele realize o cadastro do usuário, a alteração de senha ou exclusão do seu cadastro.</p>
+  
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/assets/165732989/cc98f0ef-2345-419d-b924-434d3531ea44"  alt="Figura 21 - Tela- Cadastro" width="450"/>
+</br>
+
+<figure> 
+  <figcaption> Figura 22 - Cadastro/Alteração de Senha/Exclusão de Cadastro
 </figure>
