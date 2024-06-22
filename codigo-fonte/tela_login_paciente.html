@@ -13,19 +13,19 @@
     <meta name="keywords" content="eletronicos, residuos, saúde, intoxicação"/>
     <meta http-equiv="content-type" content="no-cache"/>
     <title>ZT Health</title>
-    <link rel="stylesheet" href="/codigo-fonte/css/reset.min.css"/>
+    <link rel="stylesheet" href="css/reset.min.css"/>
     <link
       rel="stylesheet"
-      href="/codigo-fonte/css/template-header-footer.css"/>
-    <link rel="stylesheet" href="/codigo-fonte/css/tela_login_paciente.css"
+      href="css/template-header-footer.css"/>
+    <link rel="stylesheet" href="css/tela_login_paciente.css"/>
   </head>
   <body>
     <div class="wrapper">
       <header class="header-content">
           <div class="background-menu">
               <img src="assets/image/logo-background-blue.svg" class="logo">
-              <img src="/codigo-fonte/assets/image/icon-menu.svg" class="icon-menu">
-              <img src="/codigo-fonte/assets/image/icone-user-image.svg" class="icon-user">
+              <img src="assets/image/icon-menu.svg" class="icon-menu">
+              <img src="assets/image/icone-user-image.svg" class="icon-user">
           </div>
           <nav class="container-nav-bar">
               <ul class="nav-bar">
@@ -40,10 +40,10 @@
             <h1>Bem vindo ao ZT-HEALTH</h1>
             <label for="CPF" id="labelCPF">CPF</label>
             <input id="CPF" type="CPF" placeholder="Digite seu CPF" autofocus="true"/>
-            <label for="password" id="labelsenha">Senha</label>
+            <label for="senha" id="labelsenha">Senha</label>
             <input type="password" id="senha" placeholder="Digite sua senha"/>
-            <a href="/codigo-fonte/tela_cadastro.html">Esqueci minha senha/Realizar novo cadastro/Deletar conta</a>
-            <button onclick='acessar (event,CPF.value,senha.value)' type="submit" class="btn" href="/codigo-fonte/tela_inicial.html">Acessar</button>
+            <a href="tela_cadastro.html">Esqueci minha senha/Realizar novo cadastro/Deletar conta</a>
+            <button onclick='acessar (event,CPF.value,senha.value)' type="submit" class="btn" href="tela_inicial.html">Acessar</button>
             <button onclick='gov()' type="submit" class="btn">Entrar com gov.br</button>
           </form>
         </div>
@@ -55,7 +55,7 @@
         <a href="#" class="data-protection">proteção de dados</a>
       </footer>
     </div>
-    <script src="/codigo-fonte/js/template.js"></script>
+    <script src="js/template.js"></script>
     <script src="tela_login_paciente.js"></script>
   </body>
 </html>

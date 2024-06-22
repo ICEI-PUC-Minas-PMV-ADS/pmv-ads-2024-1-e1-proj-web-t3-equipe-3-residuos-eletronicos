@@ -7,13 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function Acessar()
+function Acessar() {
 
-       var Acessar = document.getElementById('Acessar').value;
-       var Senha = document.getElementById('senha').value;
+    var Acessar = document.getElementById('Acessar').value;
+    var Senha = document.getElementById('senha').value;
 
-       if (Acessar == "12345678n901" && senha == "1234"){
+    if (Acessar == "12345678n901" && senha == "1234") {
         location.href = "tela_inicial.html";
-       }else {
+    } else {
         alert('Dados incorretos');
-       }
+    }
+}

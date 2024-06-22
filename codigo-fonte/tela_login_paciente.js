@@ -53,7 +53,7 @@ function acessar (){
         
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
-        window.location.href = "/codigo-fonte/tela_incial.html"
+        window.location.href = "tela_incial.html"
 
     } else {
         alert('Necessário preencher todos os campos corretamente.')
@@ -94,7 +94,7 @@ function acessar(){
   })
 
   if(CPF.value == userValid.CPF && senha.value == userValid.senha){
-    window.location.href = '/codigo-fonte/tela_inicial.html'
+    window.location.href = 'tela_inicial.html'
     
     let token = Math.random().toString(16).substring(2)
     localStorage.setItem('token', token)

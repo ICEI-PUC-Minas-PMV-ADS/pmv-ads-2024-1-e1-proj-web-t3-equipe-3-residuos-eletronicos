@@ -77,7 +77,7 @@ function Cadastrar (){
         
         localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
-        window.location.href = '/codigo-fonte/tela_inicial.html'
+        window.location.href = 'tela_inicial.html'
 
     } else {
         alert('Necessário preencher todos os campos corretamente.')
