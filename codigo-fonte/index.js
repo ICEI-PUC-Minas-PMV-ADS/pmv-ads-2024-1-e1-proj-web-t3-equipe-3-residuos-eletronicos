@@ -10,6 +10,19 @@ let articles = [
     { id: 8, title: 'Níquel (Ni)', description: 'Content for Artigo 8', link: 'artigo8.html' }
 ];
 
+const pacienteLink = document.querySelector('#nav-bar-item-paciente');
+const minhaConta = document.getElementById('minha-conta');
+
+minhaConta.addEventListener('click', function (event){
+    event.preventDefault();
+    document.querySelector('.nav-bar').style.display = 'block';
+});
+
+pacienteLink.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = "clients-inf.html";
+});
+
 function addArticlesToGrid() {
     const gridContainer = document.getElementById('article-grid');
     let articlesHTML = '';
