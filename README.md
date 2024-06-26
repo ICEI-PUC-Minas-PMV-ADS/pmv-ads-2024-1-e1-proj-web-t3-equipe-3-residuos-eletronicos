@@ -45,4 +45,4 @@ quimíca dos resíduos eletrônicos, bem como conscientizar por meio da saúde o
 
 # Apresentação
 
-* <a href="https://github.com/user-attachments/files/15996946/ZTHEALTH_APRESENTACAO.pdf">Apresentação do Projeto PDF</a>
+* <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/tree/main/apresentacao">Apresentação do Projeto</a>
