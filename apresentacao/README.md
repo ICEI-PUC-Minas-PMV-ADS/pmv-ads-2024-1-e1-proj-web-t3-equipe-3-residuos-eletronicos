@@ -1,19 +1,10 @@
 # Apresentação da solução
 
-1. Apresentação de slides
+1. Apresentação de slides <br>
+[ZTHEALTH_apresentacao.pdf](https://github.com/user-attachments/files/15997297/ZTHEALTH_APRESENTACAO.pdf)
 
-[ZTHEALTH_APRESENTACAO.pdf](https://github.com/user-attachments/files/15997297/ZTHEALTH_APRESENTACAO.pdf)
-
-2. Vídeo de apresentação do projeto
-
-A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a apresentação da solução. Vocês deverão abrir a aplicação hospedada e apresentar o seu funcionamento.  Poderão ser utilizados quaisquer recursos na montagem do vídeo, mas não se esqueçam de mostrar as funcionalidades da aplicação. Seguem as especificações técnicas que devem ser obedecidas na geração do vídeo:
-
-> - tamanho do arquivo limitado a 90Mb
-> - taxa de FPS limitada a 30 quadros por segundo
-> - resolução HD (720p) ou Full HD (1080p)
-> - formato mp4.
-
-[Adicione vídeo de apresentação.]
+2. Vídeo de apresentação do projeto <br>
+[Apresentação do Projeto](https://youtu.be/oA2-Ubgx7GU)
 
 ## Hospedagem
 
