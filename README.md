@@ -37,12 +37,12 @@ quimíca dos resíduos eletrônicos, bem como conscientizar por meio da saúde o
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [residuos-eletronicos](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/codigo-fonte/tela_login_profsaude.html)
 
 # Código-Fonte
 
-* <a href="codigo-fonte/README.md">Código Fonte</a>
+* <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos/tree/main/codigo-fonte">Código Fonte</a>
 
 # Apresentação
 
-* <a href="apresentacao/README.md">Apresentação do Projeto</a>
+* <a href="https://github.com/user-attachments/files/15996946/ZTHEALTH_APRESENTACAO.pdf">Apresentação do Projeto PDF</a>
