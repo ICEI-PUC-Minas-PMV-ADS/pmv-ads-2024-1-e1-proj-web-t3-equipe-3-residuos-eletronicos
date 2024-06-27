@@ -1,29 +1,23 @@
 message: Please cite this software using these metadata.
-title:
+title: ZT Health
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+  - family-names: Junior
+    given-names: Handryws
+  - family-names: Augusta
+    given-names: Isabella
+  - family-names: Tannus
+    given-names: João
+  - family-names: Loivos
+    given-names: Nayana
+    family-names: Alves Nogueira
+    given-names: Simone
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: 
     given-names: 
 keywords:
-  - 
-  - 
-repository-code: 
+  - resíduos
+  - eletrônicos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t3-equipe-3-residuos-eletronicos
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-06-01
